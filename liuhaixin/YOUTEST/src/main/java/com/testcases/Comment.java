@@ -10,11 +10,11 @@ public class Comment extends BasePrepare {
     public void comment() throws InterruptedException {
         Thread.sleep(5000);
 
-        driver.findElementByName("社区").click();
+        driver.findElementByXPath("//*[@text='社区']").click();
         driver.findElementById("neet.com.youjidemo:id/image_btn_food").click();
-        driver.findElementByName("广场").click();
+        driver.findElementByXPath("//*[@text='广场']").click();
         driver.findElementById("neet.com.youjidemo:id/iv_contentimage").click();
-        driver.findElementByName("点击发表你的评论").click();
+        driver.findElementByXPath("//*[@text='点击发表你的评论']").click();
 
         driver.findElementById("neet.com.youjidemo:id/comment_content").sendKeys(" bug还没找到？ ？ ？ ");
         driver.findElementById(" neet.com.youjidemo:id/comment_send").click();

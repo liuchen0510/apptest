@@ -21,6 +21,7 @@ public class Action {
         ac = new Actions(driver);
     }
 
+
     /**
      * @param by
      */
@@ -81,6 +82,9 @@ public class Action {
         driver.findElement(by).clear();
         driver.findElement(by).sendKeys(value);
 
+    }
+    public void type(WebElement element,String context){
+        element.sendKeys(context);
     }
 
 }

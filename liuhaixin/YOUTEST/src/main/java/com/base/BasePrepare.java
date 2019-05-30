@@ -27,7 +27,7 @@ public class BasePrepare {
         capabilities.setCapability("appActivity", ".MainActivity");
         capabilities.setCapability("unicodeKeyboard", "True"); //支持中文输入
         capabilities.setCapability("resetKeyboard", "True");
-        capabilities.setCapability("noReset", false  );//支持中文输入，必须两条都配置
+        capabilities.setCapability("noReset", true  );//支持中文输入，必须两条都配置
         driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
