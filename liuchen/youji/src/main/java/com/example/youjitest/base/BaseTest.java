@@ -23,7 +23,7 @@ public class BaseTest {
         capabilities.setCapability("apps", app.getAbsolutePath());
         capabilities.setCapability("noReset",true);//保留历史数据
         capabilities.setCapability("appPackage", "me.tictok.linear");
-capabilities.setCapability("appActivity", ".WelcomeActivity");
+        capabilities.setCapability("appActivity", ".WelcomeActivity");
         driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
 
