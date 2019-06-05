@@ -39,4 +39,7 @@ public class BasePrepare {
     public void tearDown(){
         driver.quit();
     }
+    public AndroidDriver getDriver() {
+        return (AndroidDriver) this.driver;
+    }
 }

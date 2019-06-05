@@ -39,8 +39,20 @@
     <orderEntry type="library" exported="" name="Gradle: guava-16.0.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: ant-launcher-1.7.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: hamcrest-core-1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-collections4-4.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-compress-1.18" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: freemarker" level="project" />
     <orderEntry type="library" exported="" name="Gradle: java-client-4.1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.mail" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: log4j-api-2.11.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: log4j-core-2.11.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: mysql-connector-java-5.1.39-bin" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: poi-4.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: poi-ooxml-4.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: poi-ooxml-schemas-4.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: saxon-8.7" level="project" />
     <orderEntry type="library" exported="" name="Gradle: selenium-server-standalone-3.0.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: testng" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: xmlbeans-3.0.1" level="project" />
   </component>
 </module>
