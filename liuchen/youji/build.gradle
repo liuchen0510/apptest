@@ -1,0 +1,21 @@
+apply plugin: 'java-library'
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/commons-io-2.6.jar')
+    implementation files('libs/commons-lang3-3.8.jar')
+    implementation files('libs/java-client-7.0.0.jar')
+    implementation files('libs/selenium-server-standalone-3.141.59.jar')
+     implementation files('libs/ksoap2-android-assembly-2.6.0-jar-with-dependencies.jar')
+    implementation 'org.testng:testng:6.9.6'
+    implementation 'com.google.guava:guava:27.1-jre'
+    implementation files('libs/reportng-1.1.5.jar')
+    implementation files('libs/freemarker.jar')
+    implementation files('libs/javax.mail-1.6.2.jar')
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"

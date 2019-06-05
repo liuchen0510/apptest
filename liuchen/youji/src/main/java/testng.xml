@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="youji" verbose="10">
+
+    <listeners>
+        <!--<listener class-name="org.uncommons.reportng.HTMLReporter" />-->
+        <!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />-->
+        <listener class-name="com.example.youjitest.utils.WebTestListener"/>
+
+    </listeners>
+    <test name="youjitest" preserve-order="true">
+        <classes>
+            <class name="com.example.youjitest.testCases.Login"/>
+            <class name="com.example.youjitest.testCases.Find"/>
+            <class name="com.example.youjitest.testCases.Content"/>
+            <class name="com.example.youjitest.testCases.Like"/>
+            <class name="com.example.youjitest.testCases.Mine"/>
+        </classes>
+    </test>
+</suite>
