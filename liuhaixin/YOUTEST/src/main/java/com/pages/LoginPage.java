@@ -29,6 +29,7 @@ public class LoginPage {
 
     public void login(String name, String password) {
         action.click(txt_title);
+
         action.click(txt_personalcenter);
         action.sendKeys(txt_userphone, name);
         action.sendKeys(txt_password, password);

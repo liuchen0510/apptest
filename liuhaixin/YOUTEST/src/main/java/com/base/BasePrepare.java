@@ -42,4 +42,9 @@ public class BasePrepare {
     public AndroidDriver getDriver() {
         return (AndroidDriver) this.driver;
     }
+
+    public static String getCfgProperty(String string) {
+
+        return null;
+    }
 }
