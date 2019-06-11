@@ -30,7 +30,7 @@
 - 于俊伟（测试工程师）
   - Email：[1364356401@163.com](mailto:1364356401@163.com)
   - Github：[https://github.com/liuchen0510/apptest/tree/master/yujunwei](https://github.com/liuchen0510/apptest/tree/master/yujunwei)
--陈若繁（测试工程师）
+- 陈若繁（测试工程师）
   - Email：[1297985138@163.com](mailto:1297985138@163.com)
   - Github：[https://github.com/liuchen0510/apptest/tree/master/chenruofan](https://github.com/liuchen0510/apptest/tree/master/chenruofan)
 
