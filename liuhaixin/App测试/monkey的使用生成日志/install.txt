@@ -1,0 +1,547 @@
+2019-05-07 14:24:20.490 2625-11027/com.google.android.gms.persistent W/NetRec: [759] afrb.a: Timeout after 2234 ms while waiting for score updates. Rescheduling.
+2019-05-07 14:24:20.491 2625-11027/com.google.android.gms.persistent I/NetRec: [759] afrb.a: Still entries pending update, scheduling new refresh_scores_task refresh.
+2019-05-07 14:24:20.500 2625-11027/com.google.android.gms.persistent I/NetRec: [759] afrb.a: Completed refresh_scores_task score refresh task in 2498 ms, returning 1
+2019-05-07 14:24:20.507 2625-10425/com.google.android.gms.persistent E/NetworkScheduler: Invalid component specified.
+2019-05-07 14:24:20.972 1954-2086/system_process I/GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@2925084)
+2019-05-07 14:24:20.973 1954-1978/system_process I/GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@2925084)
+2019-05-07 14:24:21.975 1954-2086/system_process I/GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@6ecb06d)
+2019-05-07 14:24:21.983 1954-1978/system_process I/GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@6ecb06d)
+2019-05-07 14:24:22.441 2625-10419/com.google.android.gms.persistent E/GCM: Missing checkin config file
+2019-05-07 14:24:22.441 2625-10419/com.google.android.gms.persistent W/GCM: GCM FAILED TO INITIALIZE - missing checkin
+2019-05-07 14:24:22.442 10895-10942/com.google.android.youtube W/YouTube: Could not register with GCM: 
+    java.io.IOException: AUTHENTICATION_FAILED
+        at nyz.b(SourceFile:277)
+        at nyz.a(SourceFile:196)
+        at nyx.a(SourceFile:82)
+        at pxv.a(SourceFile:5)
+        at abcp.c(SourceFile:62)
+        at abcm.a(SourceFile:8)
+        at abcq.run(SourceFile:4)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at tgf.run(SourceFile:24)
+        at java.lang.Thread.run(Thread.java:764)
+2019-05-07 14:24:22.974 1954-2086/system_process I/GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@30e669)
+2019-05-07 14:24:22.979 2935-11067/com.google.android.gms I/iu.UploadsManager: End new media; added: 0, uploading: 0, time: 98 ms
+2019-05-07 14:24:22.979 1954-1978/system_process I/GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@30e669)
+2019-05-07 14:24:23.167 3219-3219/com.google.android.googlequicksearchbox:search I/MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+2019-05-07 14:24:23.167 3219-3219/com.google.android.googlequicksearchbox:search I/AudioController: Using mInputStreamFactoryBuilder
+2019-05-07 14:24:23.167 3219-3219/com.google.android.googlequicksearchbox:search I/AudioController: Created new AudioSource
+2019-05-07 14:24:23.170 3219-3219/com.google.android.googlequicksearchbox:search I/MicroDetectionWorker: onReady
+2019-05-07 14:24:23.183 3219-3308/com.google.android.googlequicksearchbox:search I/MicroRecognitionRunner: Starting detection.
+2019-05-07 14:24:23.184 3219-8479/com.google.android.googlequicksearchbox:search I/MicrophoneInputStream: mic_starting  SR : 16000 CC : 16 SO : 6
+2019-05-07 14:24:23.193 1596-3130/? E/AudioFlinger: not enough memory for AudioTrack size=131296
+2019-05-07 14:24:23.193 1596-3130/? D/MemoryDealer:   AudioTrack (0xe5f08140, size=4194304)
+        0: 0xe5f08150 | 0x00000000 | 0x000200E0 | A 
+        1: 0xe5f082c0 | 0x000200E0 | 0x000200E0 | A 
+        2: 0xe5f08490 | 0x000401C0 | 0x000200E0 | A 
+        3: 0xe5f08630 | 0x000602A0 | 0x000200E0 | A 
+        4: 0xe5f08810 | 0x00080380 | 0x000200E0 | A 
+        5: 0xe5f089b0 | 0x000A0460 | 0x000200E0 | A 
+        6: 0xe5f08b60 | 0x000C0540 | 0x000200E0 | A 
+        7: 0xe437e000 | 0x000E0620 | 0x000200E0 | A 
+        8: 0xe437e190 | 0x00100700 | 0x000200E0 | A 
+        9: 0xe437e340 | 0x001207E0 | 0x000200E0 | A 
+       10: 0xe437e530 | 0x001408C0 | 0x000200E0 | A 
+       11: 0xe437e690 | 0x001609A0 | 0x000200E0 | A 
+       12: 0xe437e8c0 | 0x00180A80 | 0x000200E0 | A 
+       13: 0xe437ea80 | 0x001A0B60 | 0x000200E0 | A 
+       14: 0xe437ec10 | 0x001C0C40 | 0x000200E0 | A 
+       15: 0xe437edc0 | 0x001E0D20 | 0x000200E0 | A 
+       16: 0xe437efb0 | 0x00200E00 | 0x000200E0 | A 
+       17: 0xe437e310 | 0x00220EE0 | 0x000200E0 | A 
+       18: 0xe38fe350 | 0x00240FC0 | 0x000200E0 | A 
+       19: 0xe38fe4e0 | 0x002610A0 | 0x000200E0 | A 
+       
+2019-05-07 14:24:23.193 1596-3130/? E/AudioFlinger: createRecordTrack_l() initCheck failed -12; no control block?
+2019-05-07 14:24:23.199 1596-11074/? I/AudioFlinger: AudioFlinger's thread 0xe131e7c0 tid=11074 ready to run
+2019-05-07 14:24:23.201 3219-8479/com.google.android.googlequicksearchbox:search E/IAudioFlinger: createRecord returned error -12
+2019-05-07 14:24:23.201 3219-8479/com.google.android.googlequicksearchbox:search E/AudioRecord: AudioFlinger could not create record track, status: -12
+2019-05-07 14:24:23.201 3219-8479/com.google.android.googlequicksearchbox:search E/AudioRecord-JNI: Error creating AudioRecord instance: initialization check failed with status -12.
+2019-05-07 14:24:23.204 3219-8479/com.google.android.googlequicksearchbox:search E/android.media.AudioRecord: Error code -20 when initializing native AudioRecord object.
+2019-05-07 14:24:23.204 3219-8479/com.google.android.googlequicksearchbox:search I/MicrophoneInputStream: mic_started  SR : 16000 CC : 16 SO : 6
+    
+    --------- beginning of system
+2019-05-07 14:24:23.207 3219-8479/com.google.android.googlequicksearchbox:search E/ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+2019-05-07 14:24:23.208 3219-3219/com.google.android.googlequicksearchbox:search I/MicroDetectionWorker: onReady
+2019-05-07 14:24:23.210 3219-8479/com.google.android.googlequicksearchbox:search I/MicrophoneInputStream: mic_close  SR : 16000 CC : 16 SO : 6
+2019-05-07 14:24:23.211 3219-3308/com.google.android.googlequicksearchbox:search I/MicroRecognitionRunner: Detection finished
+2019-05-07 14:24:23.212 3219-3308/com.google.android.googlequicksearchbox:search W/ErrorReporter: reportError [type: 211, code: 524300]: Error reading from input stream
+2019-05-07 14:24:23.213 3219-3332/com.google.android.googlequicksearchbox:search I/MicroRecognitionRunner: Stopping hotword detection.
+2019-05-07 14:24:23.214 3219-3308/com.google.android.googlequicksearchbox:search W/ErrorProcessor: onFatalError, processing error from engine(4)
+    com.google.android.apps.gsa.shared.speech.b.g: Error reading from input stream
+        at com.google.android.apps.gsa.staticplugins.microdetection.d.k.a(SourceFile:91)
+        at com.google.android.apps.gsa.staticplugins.microdetection.d.l.run(Unknown Source:14)
+        at com.google.android.libraries.gsa.runner.a.a.b(SourceFile:32)
+        at com.google.android.libraries.gsa.runner.a.c.call(Unknown Source:4)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.google.android.apps.gsa.shared.util.concurrent.b.g.run(Unknown Source:4)
+        at com.google.android.apps.gsa.shared.util.concurrent.b.aw.run(SourceFile:4)
+        at com.google.android.apps.gsa.shared.util.concurrent.b.aw.run(SourceFile:4)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at java.lang.Thread.run(Thread.java:764)
+        at com.google.android.apps.gsa.shared.util.concurrent.b.i.run(SourceFile:6)
+     Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+        at com.google.android.apps.gsa.speech.audio.Tee.j(SourceFile:103)
+        at com.google.android.apps.gsa.speech.audio.au.read(SourceFile:2)
+        at java.io.InputStream.read(InputStream.java:101)
+        at com.google.android.apps.gsa.speech.audio.ao.run(SourceFile:17)
+        at com.google.android.apps.gsa.speech.audio.an.run(SourceFile:2)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)?
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)?
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)?
+        at com.google.android.apps.gsa.shared.util.concurrent.b.g.run(Unknown Source:4)?
+        at com.google.android.apps.gsa.shared.util.concurrent.b.aw.run(SourceFile:4)?
+        at com.google.android.apps.gsa.shared.util.concurrent.b.aw.run(SourceFile:4)?
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)?
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)?
+        at java.lang.Thread.run(Thread.java:764)?
+        at com.google.android.apps.gsa.shared.util.concurrent.b.i.run(SourceFile:6)?
+2019-05-07 14:24:23.215 3219-3308/com.google.android.googlequicksearchbox:search I/AudioController: internalShutdown
+2019-05-07 14:24:23.216 3219-3219/com.google.android.googlequicksearchbox:search I/MicroDetector: Keeping mic open: false
+2019-05-07 14:24:23.217 3219-3219/com.google.android.googlequicksearchbox:search I/MicroDetectionWorker: #onError(false)
+2019-05-07 14:24:23.217 3219-8481/com.google.android.googlequicksearchbox:search I/DeviceStateChecker: DeviceStateChecker cancelled
+2019-05-07 14:24:23.271 1954-3663/system_process D/WificondControl: Scan result ready event
+2019-05-07 14:24:23.296 2625-10418/com.google.android.gms.persistent E/NetworkScheduler: Invalid component specified.
+2019-05-07 14:24:23.973 1954-2086/system_process I/GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@a1c5387)
+2019-05-07 14:24:23.974 1954-1978/system_process I/GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@a1c5387)
+2019-05-07 14:24:24.203 2625-10419/com.google.android.gms.persistent E/GCM: Missing checkin config file
+2019-05-07 14:24:24.204 2625-10419/com.google.android.gms.persistent W/GCM: GCM FAILED TO INITIALIZE - missing checkin
+2019-05-07 14:24:24.206 10895-10942/com.google.android.youtube W/YouTube: Could not register with GCM: 
+    java.io.IOException: AUTHENTICATION_FAILED
+        at nyz.b(SourceFile:277)
+        at nyz.a(SourceFile:194)
+        at nyx.a(SourceFile:82)
+        at pxv.a(SourceFile:5)
+        at abcp.c(SourceFile:62)
+        at abcm.a(SourceFile:8)
+        at abcq.run(SourceFile:4)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at tgf.run(SourceFile:24)
+        at java.lang.Thread.run(Thread.java:764)
+2019-05-07 14:24:24.448 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:24.625 3137-3190/com.android.systemui I/chatty: uid=10026(com.android.systemui) RenderThread identical 6 lines
+2019-05-07 14:24:24.665 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:24.701 2106-2106/com.google.android.inputmethod.latin I/GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+2019-05-07 14:24:24.702 2106-2106/com.google.android.inputmethod.latin I/GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+2019-05-07 14:24:24.975 1954-2086/system_process I/GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@d278edd)
+2019-05-07 14:24:24.975 1954-1978/system_process I/GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@d278edd)
+2019-05-07 14:24:25.960 1954-1967/system_process I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=neet.com.youjidemo/.MainActivity bnds=[559,866][693,1026]} from uid 10014
+2019-05-07 14:24:25.970 1578-3132/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 11461245 , only wrote 11460960
+2019-05-07 14:24:25.977 1954-2086/system_process I/GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@c72bc95)
+2019-05-07 14:24:25.994 1954-1978/system_process I/GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@c72bc95)
+2019-05-07 14:24:26.018 1578-3132/? W/audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+2019-05-07 14:24:26.064 1588-5625/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3690496
+2019-05-07 14:24:26.167 7731-7742/com.google.android.apps.nexuslauncher W/System: A resource failed to call release. 
+2019-05-07 14:24:26.259 1954-1981/system_process W/ActivityManager: Slow operation: 69ms so far, now at startProcess: returned from zygote!
+2019-05-07 14:24:26.259 1954-1981/system_process W/ActivityManager: Slow operation: 69ms so far, now at startProcess: done updating battery stats
+2019-05-07 14:24:26.259 1954-1981/system_process W/ActivityManager: Slow operation: 69ms so far, now at startProcess: building log message
+2019-05-07 14:24:26.259 1954-1981/system_process I/ActivityManager: Start proc 11078:neet.com.youjidemo/u0a90 for activity neet.com.youjidemo/.MainActivity
+2019-05-07 14:24:26.260 1954-1981/system_process W/ActivityManager: Slow operation: 69ms so far, now at startProcess: starting to update pids map
+2019-05-07 14:24:26.260 1954-1981/system_process W/ActivityManager: Slow operation: 69ms so far, now at startProcess: done updating pids map
+2019-05-07 14:24:26.167 7731-7742/com.google.android.apps.nexuslauncher W/System: A resource failed to call release. 
+2019-05-07 14:24:26.265 11078-11078/? I/t.com.youjidem: Not late-enabling -Xcheck:jni (already on)
+2019-05-07 14:24:26.352 11078-11078/? W/t.com.youjidem: Unexpected CPU variant for X86 using defaults: x86
+2019-05-07 14:24:26.601 2625-10425/com.google.android.gms.persistent E/GCM: Missing checkin config file
+2019-05-07 14:24:26.602 2625-10425/com.google.android.gms.persistent W/GCM: GCM FAILED TO INITIALIZE - missing checkin
+2019-05-07 14:24:26.603 10895-10942/com.google.android.youtube W/YouTube: Could not register with GCM: 
+    java.io.IOException: AUTHENTICATION_FAILED
+        at nyz.b(SourceFile:277)
+        at nyz.a(SourceFile:194)
+        at nyx.a(SourceFile:82)
+        at pxv.a(SourceFile:5)
+        at abcp.c(SourceFile:62)
+        at abcm.a(SourceFile:8)
+        at abcq.run(SourceFile:4)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at tgf.run(SourceFile:24)
+        at java.lang.Thread.run(Thread.java:764)
+2019-05-07 14:24:26.720 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:26.761 11078-11078/neet.com.youjidemo W/t.com.youjidem: JIT profile information will not be recorded: profile file does not exits.
+2019-05-07 14:24:26.768 11078-11078/neet.com.youjidemo I/chatty: uid=10090(neet.com.youjidemo) identical 10 lines
+2019-05-07 14:24:26.768 11078-11078/neet.com.youjidemo W/t.com.youjidem: JIT profile information will not be recorded: profile file does not exits.
+2019-05-07 14:24:26.788 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:26.844 11078-11078/neet.com.youjidemo I/InstantRun: starting instant run server: is main process
+2019-05-07 14:24:26.876 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:26.933 11078-11078/neet.com.youjidemo D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+2019-05-07 14:24:26.951 1718-7403/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:26.952 1718-7403/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:26.954 1718-7403/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:26.955 1718-7403/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:26.956 1718-7403/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:26.956 1718-7403/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:26.956 11078-11078/neet.com.youjidemo I/t.com.youjidem: Rejecting re-init on previously-failed class java.lang.Class<com.mob.tools.network.NetworkHelper$6>: java.lang.NoClassDefFoundError: Failed resolution of: Lorg/apache/http/client/methods/HttpEntityEnclosingRequestBase;
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.commons.logcollector.c.<init>() (LogsManager.java:55)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at com.mob.commons.logcollector.c com.mob.commons.logcollector.c.a() (LogsManager.java:71)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.commons.logcollector.DefaultLogsCollector.<init>() (DefaultLogsCollector.java:48)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at com.mob.commons.logcollector.DefaultLogsCollector com.mob.commons.logcollector.DefaultLogsCollector.get() (DefaultLogsCollector.java:40)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.MobSDK.a() (MobSDK.java:82)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.MobSDK.init(android.content.Context, java.lang.String, java.lang.String) (MobSDK.java:71)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.MobSDK.init(android.content.Context) (MobSDK.java:59)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at boolean com.mob.MobProvider.onCreate() (MobProvider.java:13)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.content.ContentProvider.attachInfo(android.content.Context, android.content.pm.ProviderInfo, boolean) (ContentProvider.java:1917)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.content.ContentProvider.attachInfo(android.content.Context, android.content.pm.ProviderInfo) (ContentProvider.java:1892)
+2019-05-07 14:24:26.957 1718-7403/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at android.app.ContentProviderHolder android.app.ActivityThread.installProvider(android.content.Context, android.app.ContentProviderHolder, android.content.pm.ProviderInfo, boolean, boolean, boolean) (ActivityThread.java:6391)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.installContentProviders(android.content.Context, java.util.List) (ActivityThread.java:5938)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.handleBindApplication(android.app.ActivityThread$AppBindData) (ActivityThread.java:5853)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.access$1100(android.app.ActivityThread, android.app.ActivityThread$AppBindData) (ActivityThread.java:199)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1650)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.os.Looper.loop() (Looper.java:193)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6669)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+2019-05-07 14:24:26.957 1718-7403/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:493)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:858)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem: Caused by: java.lang.ClassNotFoundException: Didn't find class "org.apache.http.client.methods.HttpEntityEnclosingRequestBase" on path: DexPathList[[zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/base.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_dependencies_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_resources_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_slice_0_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_slice_1_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_slice_2_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_slice_3_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_slice_4_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_slice_5_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:134)
+2019-05-07 14:24:26.957 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+2019-05-07 14:24:26.958 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+2019-05-07 14:24:26.958 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.commons.logcollector.c.<init>() (LogsManager.java:55)
+2019-05-07 14:24:26.958 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at com.mob.commons.logcollector.c com.mob.commons.logcollector.c.a() (LogsManager.java:71)
+2019-05-07 14:24:26.959 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.commons.logcollector.DefaultLogsCollector.<init>() (DefaultLogsCollector.java:48)
+2019-05-07 14:24:26.959 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at com.mob.commons.logcollector.DefaultLogsCollector com.mob.commons.logcollector.DefaultLogsCollector.get() (DefaultLogsCollector.java:40)
+2019-05-07 14:24:26.959 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.MobSDK.a() (MobSDK.java:82)
+2019-05-07 14:24:26.959 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.MobSDK.init(android.content.Context, java.lang.String, java.lang.String) (MobSDK.java:71)
+2019-05-07 14:24:26.959 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.MobSDK.init(android.content.Context) (MobSDK.java:59)
+2019-05-07 14:24:26.959 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at boolean com.mob.MobProvider.onCreate() (MobProvider.java:13)
+2019-05-07 14:24:26.959 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.content.ContentProvider.attachInfo(android.content.Context, android.content.pm.ProviderInfo, boolean) (ContentProvider.java:1917)
+2019-05-07 14:24:26.959 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.content.ContentProvider.attachInfo(android.content.Context, android.content.pm.ProviderInfo) (ContentProvider.java:1892)
+2019-05-07 14:24:26.959 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at android.app.ContentProviderHolder android.app.ActivityThread.installProvider(android.content.Context, android.app.ContentProviderHolder, android.content.pm.ProviderInfo, boolean, boolean, boolean) (ActivityThread.java:6391)
+2019-05-07 14:24:26.960 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.installContentProviders(android.content.Context, java.util.List) (ActivityThread.java:5938)
+2019-05-07 14:24:26.960 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.handleBindApplication(android.app.ActivityThread$AppBindData) (ActivityThread.java:5853)
+2019-05-07 14:24:26.960 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.access$1100(android.app.ActivityThread, android.app.ActivityThread$AppBindData) (ActivityThread.java:199)
+2019-05-07 14:24:26.960 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1650)
+2019-05-07 14:24:26.960 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+2019-05-07 14:24:26.960 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.os.Looper.loop() (Looper.java:193)
+2019-05-07 14:24:26.960 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6669)
+2019-05-07 14:24:26.960 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+2019-05-07 14:24:26.960 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:493)
+2019-05-07 14:24:26.960 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:858)
+2019-05-07 14:24:26.961 11078-11078/neet.com.youjidemo I/t.com.youjidem: Rejecting re-init on previously-failed class java.lang.Class<com.mob.tools.network.NetworkHelper$6>: java.lang.NoClassDefFoundError: Failed resolution of: Lorg/apache/http/client/methods/HttpEntityEnclosingRequestBase;
+2019-05-07 14:24:26.961 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.commons.logcollector.c.<init>() (LogsManager.java:55)
+2019-05-07 14:24:26.961 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at com.mob.commons.logcollector.c com.mob.commons.logcollector.c.a() (LogsManager.java:71)
+2019-05-07 14:24:26.962 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.commons.logcollector.DefaultLogsCollector.<init>() (DefaultLogsCollector.java:48)
+2019-05-07 14:24:26.962 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at com.mob.commons.logcollector.DefaultLogsCollector com.mob.commons.logcollector.DefaultLogsCollector.get() (DefaultLogsCollector.java:40)
+2019-05-07 14:24:26.962 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.MobSDK.a() (MobSDK.java:82)
+2019-05-07 14:24:26.962 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.MobSDK.init(android.content.Context, java.lang.String, java.lang.String) (MobSDK.java:71)
+2019-05-07 14:24:26.962 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.MobSDK.init(android.content.Context) (MobSDK.java:59)
+2019-05-07 14:24:26.962 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at boolean com.mob.MobProvider.onCreate() (MobProvider.java:13)
+2019-05-07 14:24:26.962 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.content.ContentProvider.attachInfo(android.content.Context, android.content.pm.ProviderInfo, boolean) (ContentProvider.java:1917)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.content.ContentProvider.attachInfo(android.content.Context, android.content.pm.ProviderInfo) (ContentProvider.java:1892)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at android.app.ContentProviderHolder android.app.ActivityThread.installProvider(android.content.Context, android.app.ContentProviderHolder, android.content.pm.ProviderInfo, boolean, boolean, boolean) (ActivityThread.java:6391)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.installContentProviders(android.content.Context, java.util.List) (ActivityThread.java:5938)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.handleBindApplication(android.app.ActivityThread$AppBindData) (ActivityThread.java:5853)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.access$1100(android.app.ActivityThread, android.app.ActivityThread$AppBindData) (ActivityThread.java:199)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1650)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.os.Looper.loop() (Looper.java:193)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6669)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:493)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:858)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem: Caused by: java.lang.ClassNotFoundException: Didn't find class "org.apache.http.client.methods.HttpEntityEnclosingRequestBase" on path: DexPathList[[zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/base.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_dependencies_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_resources_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_slice_0_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_slice_1_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_slice_2_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_slice_3_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_slice_4_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl1letg==/split_lib_slice_5_apk.apk", zip file "/data/app/neet.com.youjidemo-njtf3K2LRLFrd7hgl
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:134)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.commons.logcollector.c.<init>() (LogsManager.java:55)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at com.mob.commons.logcollector.c com.mob.commons.logcollector.c.a() (LogsManager.java:71)
+2019-05-07 14:24:26.963 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.commons.logcollector.DefaultLogsCollector.<init>() (DefaultLogsCollector.java:48)
+2019-05-07 14:24:26.964 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at com.mob.commons.logcollector.DefaultLogsCollector com.mob.commons.logcollector.DefaultLogsCollector.get() (DefaultLogsCollector.java:40)
+2019-05-07 14:24:26.964 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.MobSDK.a() (MobSDK.java:82)
+2019-05-07 14:24:26.964 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.MobSDK.init(android.content.Context, java.lang.String, java.lang.String) (MobSDK.java:71)
+2019-05-07 14:24:26.964 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.mob.MobSDK.init(android.content.Context) (MobSDK.java:59)
+2019-05-07 14:24:26.964 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at boolean com.mob.MobProvider.onCreate() (MobProvider.java:13)
+2019-05-07 14:24:26.964 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.content.ContentProvider.attachInfo(android.content.Context, android.content.pm.ProviderInfo, boolean) (ContentProvider.java:1917)
+2019-05-07 14:24:26.964 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.content.ContentProvider.attachInfo(android.content.Context, android.content.pm.ProviderInfo) (ContentProvider.java:1892)
+2019-05-07 14:24:26.964 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at android.app.ContentProviderHolder android.app.ActivityThread.installProvider(android.content.Context, android.app.ContentProviderHolder, android.content.pm.ProviderInfo, boolean, boolean, boolean) (ActivityThread.java:6391)
+2019-05-07 14:24:26.964 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.installContentProviders(android.content.Context, java.util.List) (ActivityThread.java:5938)
+2019-05-07 14:24:26.964 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.handleBindApplication(android.app.ActivityThread$AppBindData) (ActivityThread.java:5853)
+2019-05-07 14:24:26.965 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.access$1100(android.app.ActivityThread, android.app.ActivityThread$AppBindData) (ActivityThread.java:199)
+2019-05-07 14:24:26.965 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1650)
+2019-05-07 14:24:26.965 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+2019-05-07 14:24:26.965 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.os.Looper.loop() (Looper.java:193)
+2019-05-07 14:24:26.965 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6669)
+2019-05-07 14:24:26.965 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+2019-05-07 14:24:26.965 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:493)
+2019-05-07 14:24:26.965 11078-11078/neet.com.youjidemo I/t.com.youjidem:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:858)
+2019-05-07 14:24:26.972 3219-3241/com.google.android.googlequicksearchbox:search D/EGL_emulation: eglMakeCurrent: 0xe0657100: ver 2 0 (tinfo 0xe0630c90)
+2019-05-07 14:24:26.975 1694-2112/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:26.977 1954-2086/system_process I/GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@ad5336f)
+2019-05-07 14:24:26.980 1694-2112/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:26.987 1694-2112/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:26.987 1954-1978/system_process I/GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@ad5336f)
+2019-05-07 14:24:26.989 1694-2112/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:27.004 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:27.047 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:27.189 11078-11101/neet.com.youjidemo W/t.com.youjidem: Verification of void com.mob.commons.l.<clinit>() took 169.636ms
+2019-05-07 14:24:27.434 11078-11089/neet.com.youjidemo I/t.com.youjidem: Background concurrent copying GC freed 25301(7MB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 2MB/4MB, paused 2.839ms total 313.166ms
+2019-05-07 14:24:27.526 11078-11078/neet.com.youjidemo W/t.com.youjidem: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+2019-05-07 14:24:27.527 11078-11078/neet.com.youjidemo W/t.com.youjidem: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2019-05-07 14:24:27.637 11078-11078/neet.com.youjidemo E/1: {}
+2019-05-07 14:24:27.640 3137-3190/com.android.systemui I/OpenGLRenderer: Davey! duration=791ms; Flags=0, IntendedVsync=4499287487475, Vsync=4499470820801, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=4499486990190, AnimationStart=4499487081500, PerformTraversalsStart=4499487565760, DrawStart=4499487630190, SyncQueued=4499488229230, SyncStart=4499530813510, IssueDrawCommandsStart=4499530896710, SwapBuffers=4500106411530, FrameCompleted=4500121219840, DequeueBufferDuration=96000, QueueBufferDuration=2084000, 
+2019-05-07 14:24:27.663 11078-11078/neet.com.youjidemo D/OpenGLRenderer: HWUI GL Pipeline
+2019-05-07 14:24:27.734 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:27.742 3137-3137/com.android.systemui I/Choreographer: Skipped 43 frames!  The application may be doing too much work on its main thread.
+2019-05-07 14:24:27.759 1694-1724/? E/SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+2019-05-07 14:24:27.774 1578-3132/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 11547540 , only wrote 11547360
+2019-05-07 14:24:27.775 1578-3132/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 11547400 , only wrote 11547360
+2019-05-07 14:24:27.790 1578-3132/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 11548094 , only wrote 11548080
+2019-05-07 14:24:27.793 7731-7768/com.google.android.apps.nexuslauncher I/OpenGLRenderer: Davey! duration=862ms; Flags=0, IntendedVsync=4499402846050, Vsync=4499419512716, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=4499420623100, AnimationStart=4499420715690, PerformTraversalsStart=4499429586080, DrawStart=4499438868630, SyncQueued=4499451779130, SyncStart=4499460297950, IssueDrawCommandsStart=4499460567600, SwapBuffers=4500262122540, FrameCompleted=4500274361890, DequeueBufferDuration=1463000, QueueBufferDuration=1537000, 
+2019-05-07 14:24:27.829 7731-7768/com.google.android.apps.nexuslauncher D/EGL_emulation: eglMakeCurrent: 0xe4a5f7a0: ver 2 0 (tinfo 0xe4a7efa0)
+2019-05-07 14:24:27.834 1694-1724/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:27.837 1694-1724/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:27.840 1694-1724/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:27.842 1694-1724/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:27.882 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:27.922 11078-11107/neet.com.youjidemo W/t.com.youjidem: Long monitor contention with owner Thread-7 (11101) at long java.lang.System.currentTimeMillis()(System.java:-2) waiters=0 in boolean com.mob.commons.k.a(java.io.File, boolean, com.mob.commons.LockAction) for 469ms
+2019-05-07 14:24:27.977 1954-2086/system_process I/GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@5cdc81)
+2019-05-07 14:24:27.981 1954-1978/system_process I/GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@5cdc81)
+2019-05-07 14:24:28.002 3137-3190/com.android.systemui I/OpenGLRenderer: Davey! duration=844ms; Flags=0, IntendedVsync=4499499000856, Vsync=4500215667494, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=4500223617620, AnimationStart=4500223676920, PerformTraversalsStart=4500223712760, DrawStart=4500223915000, SyncQueued=4500223998200, SyncStart=4500363914030, IssueDrawCommandsStart=4500364039470, SwapBuffers=4500472061140, FrameCompleted=4500483408330, DequeueBufferDuration=1306000, QueueBufferDuration=8061000, 
+2019-05-07 14:24:28.141 1954-10790/system_process D/NetworkMonitor/NetworkAgentInfo?[MOBILE?(LTE)?-?100]: PROBE_HTTPS https://www.google.com/generate_204 Probe failed with exception java.net.SocketTimeoutException: failed to connect to /2404:6800:4012:1::2004 (port 443) from /fec0::643c:b70d:d2ce:38d8 (port 37734) after 10000ms
+2019-05-07 14:24:28.291 11078-11078/neet.com.youjidemo W/Thread-17: type=1400 audit(0.0:36): avc: denied { read } for name="drivers" dev="proc" ino=4026531853 scontext=u:r:untrusted_app:s0:c90,c256,c512,c768 tcontext=u:object_r:proc_tty_drivers:s0 tclass=file permissive=0
+2019-05-07 14:24:28.454 11078-11135/neet.com.youjidemo E/url: http://10.7.90.205:8080/youjiServer/DynamicServlet?message=dynamic_allDynamic
+2019-05-07 14:24:28.501 11078-11135/neet.com.youjidemo W/System.err: java.io.IOException: Cleartext HTTP traffic to 10.7.90.205 not permitted
+2019-05-07 14:24:28.501 1588-5625/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3690496
+2019-05-07 14:24:28.518 1588-5625/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3690496
+2019-05-07 14:24:28.521 11078-11135/neet.com.youjidemo W/System.err:     at com.android.okhttp.HttpHandler$CleartextURLFilter.checkURLPermitted(HttpHandler.java:115)
+2019-05-07 14:24:28.521 11078-11135/neet.com.youjidemo W/System.err:     at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:458)
+2019-05-07 14:24:28.533 1588-5625/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3690496
+2019-05-07 14:24:28.536 11078-11135/neet.com.youjidemo W/System.err:     at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+2019-05-07 14:24:28.536 11078-11135/neet.com.youjidemo W/System.err:     at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:244)
+2019-05-07 14:24:28.539 11078-11135/neet.com.youjidemo W/System.err:     at neet.com.youjidemo.command.GetJsonStr.getJsonStrbyUrl(GetJsonStr.java:23)
+2019-05-07 14:24:28.541 11078-11135/neet.com.youjidemo W/System.err:     at neet.com.youjidemo.biz.Dynamicbiz.getDynamic(Dynamicbiz.java:24)
+2019-05-07 14:24:28.565 11078-11112/neet.com.youjidemo I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2019-05-07 14:24:28.571 11078-11112/neet.com.youjidemo I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2019-05-07 14:24:28.571 11078-11112/neet.com.youjidemo I/OpenGLRenderer: Initialized EGL, version 1.4
+2019-05-07 14:24:28.571 11078-11112/neet.com.youjidemo D/OpenGLRenderer: Swap behavior 1
+2019-05-07 14:24:28.571 11078-11112/neet.com.youjidemo W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2019-05-07 14:24:28.571 11078-11112/neet.com.youjidemo D/OpenGLRenderer: Swap behavior 0
+2019-05-07 14:24:28.586 11078-11112/neet.com.youjidemo D/EGL_emulation: eglCreateContext: 0xde685780: maj 2 min 0 rcv 2
+2019-05-07 14:24:28.589 11078-11135/neet.com.youjidemo W/System.err:     at neet.com.youjidemo.Presenter.DynamicOptionPresenter$DynamicTask.doInBackground(DynamicOptionPresenter.java:55)
+2019-05-07 14:24:28.589 11078-11135/neet.com.youjidemo W/System.err:     at android.os.AsyncTask$2.call(AsyncTask.java:333)
+2019-05-07 14:24:28.589 11078-11135/neet.com.youjidemo W/System.err:     at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2019-05-07 14:24:28.589 11078-11135/neet.com.youjidemo W/System.err:     at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:245)
+2019-05-07 14:24:28.589 11078-11135/neet.com.youjidemo W/System.err:     at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+2019-05-07 14:24:28.622 11078-11112/neet.com.youjidemo D/EGL_emulation: eglMakeCurrent: 0xde685780: ver 2 0 (tinfo 0xde683810)
+2019-05-07 14:24:28.628 11078-11135/neet.com.youjidemo W/System.err:     at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+2019-05-07 14:24:28.628 11078-11135/neet.com.youjidemo W/System.err:     at java.lang.Thread.run(Thread.java:764)
+2019-05-07 14:24:28.647 1694-1724/? E/SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+    
+    --------- beginning of crash
+2019-05-07 14:24:28.702 11078-11135/neet.com.youjidemo E/AndroidRuntime: FATAL EXCEPTION: AsyncTask #1
+    Process: neet.com.youjidemo, PID: 11078
+    java.lang.RuntimeException: An error occurred while executing doInBackground()
+        at android.os.AsyncTask$3.done(AsyncTask.java:354)
+        at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:383)
+        at java.util.concurrent.FutureTask.setException(FutureTask.java:252)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:271)
+        at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:245)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at java.lang.Thread.run(Thread.java:764)
+     Caused by: java.lang.NullPointerException: println needs a message
+        at android.util.Log.println_native(Native Method)
+        at android.util.Log.e(Log.java:240)
+        at neet.com.youjidemo.biz.Dynamicbiz.getDynamic(Dynamicbiz.java:25)
+        at neet.com.youjidemo.Presenter.DynamicOptionPresenter$DynamicTask.doInBackground(DynamicOptionPresenter.java:55)
+        at android.os.AsyncTask$2.call(AsyncTask.java:333)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:245)?
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)?
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)?
+        at java.lang.Thread.run(Thread.java:764)?
+2019-05-07 14:24:28.746 1954-3663/system_process W/ActivityManager:   Force finishing activity neet.com.youjidemo/.MainActivity
+2019-05-07 14:24:28.761 1954-1980/system_process I/ActivityManager: Showing crash dialog for package neet.com.youjidemo u0
+2019-05-07 14:24:28.887 1588-5625/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 1691648
+2019-05-07 14:24:28.906 1588-5625/? I/chatty: uid=1000(system) HwBinder:1588_3 identical 1 line
+2019-05-07 14:24:28.917 1588-5625/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 1691648
+2019-05-07 14:24:28.931 11078-11089/neet.com.youjidemo I/t.com.youjidem: Background concurrent copying GC freed 23027(2MB) AllocSpace objects, 2(88KB) LOS objects, 49% free, 3MB/6MB, paused 4.621ms total 681.333ms
+2019-05-07 14:24:28.969 1954-2531/system_process I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2019-05-07 14:24:28.969 1954-2531/system_process I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2019-05-07 14:24:28.969 1954-2531/system_process I/OpenGLRenderer: Initialized EGL, version 1.4
+2019-05-07 14:24:28.969 1954-2531/system_process D/OpenGLRenderer: Swap behavior 1
+2019-05-07 14:24:28.971 1954-2531/system_process W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2019-05-07 14:24:28.971 1954-2531/system_process D/OpenGLRenderer: Swap behavior 0
+2019-05-07 14:24:28.976 1954-2531/system_process D/EGL_emulation: eglCreateContext: 0xde687280: maj 2 min 0 rcv 2
+2019-05-07 14:24:28.977 1954-2086/system_process I/GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@6122410)
+2019-05-07 14:24:28.991 1954-2531/system_process D/EGL_emulation: eglMakeCurrent: 0xde687280: ver 2 0 (tinfo 0xc71621f0)
+2019-05-07 14:24:29.006 1954-1978/system_process I/GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@6122410)
+2019-05-07 14:24:29.096 11078-11089/neet.com.youjidemo I/t.com.youjidem: NativeAlloc concurrent copying GC freed 16873(1361KB) AllocSpace objects, 4(80KB) LOS objects, 50% free, 1967KB/3MB, paused 642us total 133.371ms
+2019-05-07 14:24:29.187 1578-1856/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 11681107 , only wrote 11615040
+2019-05-07 14:24:29.189 11078-11078/neet.com.youjidemo I/Choreographer: Skipped 65 frames!  The application may be doing too much work on its main thread.
+2019-05-07 14:24:29.230 11078-11112/neet.com.youjidemo D/EGL_emulation: eglMakeCurrent: 0xde685780: ver 2 0 (tinfo 0xde683810)
+2019-05-07 14:24:29.235 1954-2531/system_process D/EGL_emulation: eglMakeCurrent: 0xde687280: ver 2 0 (tinfo 0xc71621f0)
+2019-05-07 14:24:29.260 1954-1979/system_process W/ActivityManager: Activity pause timeout for ActivityRecord{842c99e u0 neet.com.youjidemo/.MainActivity t65 f}
+2019-05-07 14:24:29.279 1588-5625/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3690496
+2019-05-07 14:24:29.292 1588-1588/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3690496
+2019-05-07 14:24:29.301 1954-1979/system_process D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:29.303 1954-1979/system_process D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:29.308 1718-7403/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:29.309 1718-7403/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:29.308 1588-1588/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3690496
+2019-05-07 14:24:29.310 1694-1894/? W/SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen neet.com.youjidemo#0
+2019-05-07 14:24:29.336 1588-1588/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3690496
+2019-05-07 14:24:29.353 3219-3241/com.google.android.googlequicksearchbox:search D/EGL_emulation: eglMakeCurrent: 0xe0657100: ver 2 0 (tinfo 0xe0630c90)
+2019-05-07 14:24:29.354 1588-1588/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3690496
+2019-05-07 14:24:29.406 1588-1588/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3690496
+2019-05-07 14:24:29.456 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:29.475 1954-1967/system_process W/system_server: JNI critical lock held for 31.752ms on Thread[8,tid=1967,Runnable,Thread*=0xde68bc00,peer=0x13300468,"Binder:1954_1"]
+2019-05-07 14:24:29.486 3219-3219/com.google.android.googlequicksearchbox:search I/MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+2019-05-07 14:24:29.486 3219-3219/com.google.android.googlequicksearchbox:search I/AudioController: Using mInputStreamFactoryBuilder
+2019-05-07 14:24:29.487 3219-3219/com.google.android.googlequicksearchbox:search I/AudioController: Created new AudioSource
+2019-05-07 14:24:29.489 3219-3219/com.google.android.googlequicksearchbox:search I/MicroDetectionWorker: onReady
+2019-05-07 14:24:29.494 7731-7768/com.google.android.apps.nexuslauncher D/EGL_emulation: eglMakeCurrent: 0xe4a5f7a0: ver 2 0 (tinfo 0xe4a7efa0)
+2019-05-07 14:24:29.539 1954-3976/system_process W/ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.ActionExecutorImpl$EmptyService (has extras) } to com.google.android.apps.messaging/.shared.datamodel.action.ActionExecutorImpl$EmptyService from pid=10441 uid=10056 pkg=com.google.android.apps.messaging startFg?=false
+2019-05-07 14:24:29.541 10441-10441/com.google.android.apps.messaging W/BugleDataModel: service started without protection. DataModel.startActionUnsafe is deprecated. class com.google.android.apps.messaging.shared.datamodel.action.SelfParticipantsRefreshAction-SelfParticipantsRefreshAction:1557210148086007
+2019-05-07 14:24:29.541 10441-10441/com.google.android.apps.messaging W/BugleDataModel: java.lang.IllegalStateException: Not allowed to start service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.ActionExecutorImpl$EmptyService (has extras) }: app is in background uid UidRecord{d230d27 u0a56 LAST bg:+1m58s576ms idle change:cached procs:2 seq(0,0,0)}
+        at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1577)
+        at android.app.ContextImpl.startService(ContextImpl.java:1532)
+        at android.content.ContextWrapper.startService(ContextWrapper.java:664)
+        at com.google.android.apps.messaging.shared.datamodel.action.ActionExecutorImpl.a(SourceFile:25)
+        at cau.a(SourceFile:92)
+        at cav.run(Unknown Source:2)
+        at android.os.Handler.handleCallback(Handler.java:873)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:193)
+        at android.app.ActivityThread.main(ActivityThread.java:6669)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+2019-05-07 14:24:29.549 10441-11142/com.google.android.apps.messaging I/BugleDataModel: ParticipantRefresh: Start participant refresh. refreshMode: 1
+2019-05-07 14:24:29.596 3219-8481/com.google.android.googlequicksearchbox:search I/MicroRecognitionRunner: Starting detection.
+2019-05-07 14:24:29.649 3219-8479/com.google.android.googlequicksearchbox:search I/MicrophoneInputStream: mic_starting  SR : 16000 CC : 16 SO : 6
+2019-05-07 14:24:29.670 1596-5278/? E/AudioFlinger: not enough memory for AudioTrack size=131296
+2019-05-07 14:24:29.670 1596-5278/? D/MemoryDealer:   AudioTrack (0xe5f08140, size=4194304)
+        0: 0xe5f08150 | 0x00000000 | 0x000200E0 | A 
+        1: 0xe5f082c0 | 0x000200E0 | 0x000200E0 | A 
+        2: 0xe5f08490 | 0x000401C0 | 0x000200E0 | A 
+        3: 0xe5f08630 | 0x000602A0 | 0x000200E0 | A 
+        4: 0xe5f08810 | 0x00080380 | 0x000200E0 | A 
+        5: 0xe5f089b0 | 0x000A0460 | 0x000200E0 | A 
+        6: 0xe5f08b60 | 0x000C0540 | 0x000200E0 | A 
+        7: 0xe437e000 | 0x000E0620 | 0x000200E0 | A 
+        8: 0xe437e190 | 0x00100700 | 0x000200E0 | A 
+        9: 0xe437e340 | 0x001207E0 | 0x000200E0 | A 
+       10: 0xe437e530 | 0x001408C0 | 0x000200E0 | A 
+       11: 0xe437e690 | 0x001609A0 | 0x000200E0 | A 
+       12: 0xe437e8c0 | 0x00180A80 | 0x000200E0 | A 
+       13: 0xe437ea80 | 0x001A0B60 | 0x000200E0 | A 
+       14: 0xe437ec10 | 0x001C0C40 | 0x000200E0 | A 
+       15: 0xe437edc0 | 0x001E0D20 | 0x000200E0 | A 
+       16: 0xe437efb0 | 0x00200E00 | 0x000200E0 | A 
+       17: 0xe437e310 | 0x00220EE0 | 0x000200E0 | A 
+       18: 0xe38fe350 | 0x00240FC0 | 0x000200E0 | A 
+       19: 0xe38fe4e0 | 0x002610A0 | 0x000200E0 | A 
+       
+2019-05-07 14:24:29.670 1596-5278/? E/AudioFlinger: createRecordTrack_l() initCheck failed -12; no control block?
+2019-05-07 14:24:29.675 1596-11145/? I/AudioFlinger: AudioFlinger's thread 0xe13a8840 tid=11145 ready to run
+2019-05-07 14:24:29.676 3219-8479/com.google.android.googlequicksearchbox:search E/IAudioFlinger: createRecord returned error -12
+2019-05-07 14:24:29.676 3219-8479/com.google.android.googlequicksearchbox:search E/AudioRecord: AudioFlinger could not create record track, status: -12
+2019-05-07 14:24:29.676 3219-8479/com.google.android.googlequicksearchbox:search E/AudioRecord-JNI: Error creating AudioRecord instance: initialization check failed with status -12.
+2019-05-07 14:24:29.679 3219-8479/com.google.android.googlequicksearchbox:search E/android.media.AudioRecord: Error code -20 when initializing native AudioRecord object.
+2019-05-07 14:24:29.679 3219-8479/com.google.android.googlequicksearchbox:search I/MicrophoneInputStream: mic_started  SR : 16000 CC : 16 SO : 6
+2019-05-07 14:24:29.680 3219-8479/com.google.android.googlequicksearchbox:search E/ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+2019-05-07 14:24:29.680 3219-3219/com.google.android.googlequicksearchbox:search I/MicroDetectionWorker: onReady
+2019-05-07 14:24:29.727 3219-8479/com.google.android.googlequicksearchbox:search I/MicrophoneInputStream: mic_close  SR : 16000 CC : 16 SO : 6
+2019-05-07 14:24:29.751 1718-7403/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:29.752 1718-7403/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:29.780 3219-8481/com.google.android.googlequicksearchbox:search I/MicroRecognitionRunner: Detection finished
+2019-05-07 14:24:29.780 3219-8481/com.google.android.googlequicksearchbox:search W/ErrorReporter: reportError [type: 211, code: 524300]: Error reading from input stream
+2019-05-07 14:24:29.781 3219-3332/com.google.android.googlequicksearchbox:search I/MicroRecognitionRunner: Stopping hotword detection.
+2019-05-07 14:24:29.781 3219-8481/com.google.android.googlequicksearchbox:search W/ErrorProcessor: onFatalError, processing error from engine(4)
+    com.google.android.apps.gsa.shared.speech.b.g: Error reading from input stream
+        at com.google.android.apps.gsa.staticplugins.microdetection.d.k.a(SourceFile:91)
+        at com.google.android.apps.gsa.staticplugins.microdetection.d.l.run(Unknown Source:14)
+        at com.google.android.libraries.gsa.runner.a.a.b(SourceFile:32)
+        at com.google.android.libraries.gsa.runner.a.c.call(Unknown Source:4)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.google.android.apps.gsa.shared.util.concurrent.b.g.run(Unknown Source:4)
+        at com.google.android.apps.gsa.shared.util.concurrent.b.aw.run(SourceFile:4)
+        at com.google.android.apps.gsa.shared.util.concurrent.b.aw.run(SourceFile:4)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at java.lang.Thread.run(Thread.java:764)
+        at com.google.android.apps.gsa.shared.util.concurrent.b.i.run(SourceFile:6)
+     Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+        at com.google.android.apps.gsa.speech.audio.Tee.j(SourceFile:103)
+        at com.google.android.apps.gsa.speech.audio.au.read(SourceFile:2)
+        at java.io.InputStream.read(InputStream.java:101)
+        at com.google.android.apps.gsa.speech.audio.ao.run(SourceFile:17)
+        at com.google.android.apps.gsa.speech.audio.an.run(SourceFile:2)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)?
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)?
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)?
+        at com.google.android.apps.gsa.shared.util.concurrent.b.g.run(Unknown Source:4)?
+        at com.google.android.apps.gsa.shared.util.concurrent.b.aw.run(SourceFile:4)?
+        at com.google.android.apps.gsa.shared.util.concurrent.b.aw.run(SourceFile:4)?
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)?
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)?
+        at java.lang.Thread.run(Thread.java:764)?
+        at com.google.android.apps.gsa.shared.util.concurrent.b.i.run(SourceFile:6)?
+2019-05-07 14:24:29.781 3219-8481/com.google.android.googlequicksearchbox:search I/AudioController: internalShutdown
+2019-05-07 14:24:29.785 7731-7741/com.google.android.apps.nexuslauncher D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:29.791 7731-7741/com.google.android.apps.nexuslauncher D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:29.792 7731-7744/com.google.android.apps.nexuslauncher I/s.nexuslaunche: Background concurrent copying GC freed 8348(592KB) AllocSpace objects, 52(19MB) LOS objects, 40% free, 8MB/14MB, paused 1.292ms total 169.461ms
+2019-05-07 14:24:29.796 3219-3219/com.google.android.googlequicksearchbox:search I/MicroDetector: Keeping mic open: false
+2019-05-07 14:24:29.797 3219-3219/com.google.android.googlequicksearchbox:search I/MicroDetectionWorker: #onError(false)
+2019-05-07 14:24:29.797 3219-3308/com.google.android.googlequicksearchbox:search I/DeviceStateChecker: DeviceStateChecker cancelled
+2019-05-07 14:24:29.821 11078-11112/neet.com.youjidemo I/OpenGLRenderer: Davey! duration=1721ms; Flags=0, IntendedVsync=4500576816596, Vsync=4501660149886, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=4501670581290, AnimationStart=4501670647850, PerformTraversalsStart=4501672540970, DrawStart=4501672990240, SyncQueued=4501708702640, SyncStart=4501712190210, IssueDrawCommandsStart=4501736504640, SwapBuffers=4502263108140, FrameCompleted=4502301946290, DequeueBufferDuration=921000, QueueBufferDuration=1086000, 
+2019-05-07 14:24:29.846 11078-11078/neet.com.youjidemo I/Choreographer: Skipped 39 frames!  The application may be doing too much work on its main thread.
+2019-05-07 14:24:29.933 3219-3230/com.google.android.googlequicksearchbox:search I/earchbox:searc: Background concurrent copying GC freed 13570(766KB) AllocSpace objects, 18(5MB) LOS objects, 46% free, 6MB/12MB, paused 887us total 282.710ms
+2019-05-07 14:24:29.949 10441-11142/com.google.android.apps.messaging I/BugleDataModel: ParticipantRefresh: Number of participants refreshed: 2
+2019-05-07 14:24:29.979 1954-2086/system_process I/GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@8fda16c)
+2019-05-07 14:24:29.981 1954-1978/system_process I/GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@8fda16c)
+2019-05-07 14:24:29.991 11078-11112/neet.com.youjidemo I/OpenGLRenderer: Davey! duration=798ms; Flags=0, IntendedVsync=4501671891625, Vsync=4502321891599, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=4502327761310, AnimationStart=4502327895710, PerformTraversalsStart=4502328495610, DrawStart=4502328947020, SyncQueued=4502330300400, SyncStart=4502331536030, IssueDrawCommandsStart=4502348814310, SwapBuffers=4502431326020, FrameCompleted=4502471901140, DequeueBufferDuration=90000, QueueBufferDuration=1806000, 
+2019-05-07 14:24:29.999 11078-11112/neet.com.youjidemo D/EGL_emulation: eglMakeCurrent: 0xde685780: ver 2 0 (tinfo 0xde683810)
+2019-05-07 14:24:30.055 2935-4434/com.google.android.gms I/Icing: IndexChimeraService.getServiceInterface callingPackage=com.google.android.apps.messaging componentName=null serviceId=36
+2019-05-07 14:24:30.109 2935-4894/com.google.android.gms I/Icing: IndexChimeraService.getServiceInterface callingPackage=com.google.android.apps.messaging componentName=null serviceId=36
+2019-05-07 14:24:30.131 1694-2112/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:30.133 1694-2112/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:30.138 1694-2112/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:30.139 1694-2112/? D/gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+2019-05-07 14:24:30.156 1694-2112/? W/SurfaceFlinger: Attempting to destroy on removed layer: AppWindowToken{685d44c token=Token{c122c7f ActivityRecord{842c99e u0 neet.com.youjidemo/.MainActivity t65}}}#0
+2019-05-07 14:24:30.219 2935-4434/com.google.android.gms I/Icing: IndexChimeraService.getServiceInterface callingPackage=com.google.android.apps.messaging componentName=null serviceId=36
+2019-05-07 14:24:30.600 1954-2531/system_process I/OpenGLRenderer: Davey! duration=1711ms; Flags=0, IntendedVsync=4501337794884, Vsync=4501404461548, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=4501409336500, AnimationStart=4501409383430, PerformTraversalsStart=4501409422680, DrawStart=4501709971970, SyncQueued=4501711323650, SyncStart=4501742641810, IssueDrawCommandsStart=4501754503140, SwapBuffers=4503043043900, FrameCompleted=4503081060720, DequeueBufferDuration=98000, QueueBufferDuration=1303000, 
+2019-05-07 14:24:30.600 1954-1980/system_process W/Looper: Slow dispatch took 1672ms android.ui h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@9490cd4 m=0
+2019-05-07 14:24:30.608 1954-1980/system_process I/Choreographer: Skipped 81 frames!  The application may be doing too much work on its main thread.
+2019-05-07 14:24:30.611 1954-1980/system_process W/Looper: Slow delivery took 1361ms android.ui h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@9490cd4 m=0
+2019-05-07 14:24:30.648 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:30.679 2935-9456/com.google.android.gms I/Icing: Usage reports ok 5, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+2019-05-07 14:24:30.697 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:30.728 2935-9456/com.google.android.gms I/Icing: Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+2019-05-07 14:24:30.758 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:30.796 2935-9456/com.google.android.gms I/Icing: Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+2019-05-07 14:24:30.867 1954-2531/system_process I/OpenGLRenderer: Davey! duration=1619ms; Flags=0, IntendedVsync=4501727591288, Vsync=4503077591234, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=4503088895600, AnimationStart=4503088951490, PerformTraversalsStart=4503088990320, DrawStart=4503089241200, SyncQueued=4503089269780, SyncStart=4503090632130, IssueDrawCommandsStart=4503090765680, SwapBuffers=4503329338270, FrameCompleted=4503348019000, DequeueBufferDuration=460000, QueueBufferDuration=664000, 
+2019-05-07 14:24:30.874 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:30.925 1954-1980/system_process W/Looper: Drained
+2019-05-07 14:24:30.926 1954-1980/system_process W/Looper: Slow dispatch took 298ms android.ui h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@9490cd4 m=0
+2019-05-07 14:24:30.926 1954-1980/system_process W/Looper: Slow delivery took 281ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$20@e4472b m=0
+2019-05-07 14:24:30.944 3137-3190/com.android.systemui I/chatty: uid=10026(com.android.systemui) RenderThread identical 2 lines
+2019-05-07 14:24:30.970 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:30.979 1954-2086/system_process I/GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@5239788)
+2019-05-07 14:24:30.980 1954-1978/system_process I/GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@5239788)
+2019-05-07 14:24:31.007 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:31.140 3137-3190/com.android.systemui I/chatty: uid=10026(com.android.systemui) RenderThread identical 5 lines
+2019-05-07 14:24:31.163 3137-3190/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0xde6858a0: ver 2 0 (tinfo 0xde683990)
+2019-05-07 14:24:31.174 1954-2500/system_process D/NetworkMonitor/NetworkAgentInfo?[MOBILE?(LTE)?-?100]: PROBE_FALLBACK http://play.googleapis.com/generate_204 Probe failed with exception java.net.SocketTimeoutException: failed to connect to /2404:6800:4008:801::200a (port 80) from /fec0::643c:b70d:d2ce:38d8 (port 39176) after 10000ms
+2019-05-07 14:24:31.174 1954-2068/system_process D/ConnectivityService: NetworkAgentInfo [MOBILE (LTE) - 100] validation failed
