@@ -1,0 +1,15 @@
+POST /bugfree3.0.3/index.php/search/getProductModule HTTP/1.1
+x-requested-with: XMLHttpRequest
+Accept-Language: zh-cn
+Referer: http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+Accept: text/plain, */*; q=0.01
+Content-Type: application/x-www-form-urlencoded
+UA-CPU: x86
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Host: 10.7.90.205
+Content-Length: 31
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: 1_product=9e40f4f8ac90faa0dbba40b3445698512887b09as%3A1%3A%221%22%3B; pageSize=601e6f18f0f7d75f725d1c40e3c57164989e2c3as%3A2%3A%2220%22%3B; ac-cookie=%5B%7B%22data%22%3A%5B%22%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98%22%2C%22%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98%5Badmin%5D%22%5D%2C%22value%22%3A%22%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98%22%2C%22result%22%3A%22%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98%22%7D%5D; PHPSESSID=i33ovoaaeu7s9bn9mnjbf235b4; c6f8bbea803b78483bfb91578596c67b=cead7ea00f40cce4c68f7a942893b4466cc76d53s%3A163%3A%22c811ad0a47735f3be2ba4903d7e684da9d4192cca%3A4%3A%7Bi%3A0%3Bs%3A1%3A%221%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A2%3A%7Bs%3A8%3A%22realname%22%3Bs%3A15%3A%22%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98%22%3Bs%3A8%3A%22username%22%3Bs%3A5%3A%22admin%22%3B%7D%7D%22%3B; language=0a2b4a62849989ee73f383f7dc48db485efcaca8s%3A5%3A%22zh_cn%22%3B
+

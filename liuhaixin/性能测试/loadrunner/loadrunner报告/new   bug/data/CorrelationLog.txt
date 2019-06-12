@@ -1,0 +1,186 @@
+Debug Message:
+	Correlation engine instance created; using configuration Default
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/site/login
+
+Debug Message:
+	TaskID=4  URL=http://10.7.90.205/bugfree3.0.3/index.php/site/login
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/themes/classic/assets/images/blue/seperate_line.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/site/login
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/themes/classic/assets/images/blue/logo_login.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/site/login
+
+Debug Message:
+	TaskID=18  URL=http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/themes/classic/assets/images/down.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/themes/classic/assets/images/active.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/themes/classic/assets/images//close_div.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/10643704/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/search/getProductModule
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/10643704/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/10643704/jui/css/base/images/ui-icons_222222_256x240.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/10643704/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/10643704/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/10643704/jui/css/base/images/ui-icons_222222_256x240.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/10643704/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/4b9d3645/img/page.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	TaskID=67  URL=http://10.7.90.205/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/themes/classic/assets/images/active.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/10643704/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/10643704/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/10643704/jui/css/base/images/ui-icons_222222_256x240.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/e520453c/themes/default/default.css
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/e520453c/themes/default/default.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/ab61b02b/indicator.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/assets/4b9d3645/img/page.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/themes/classic/assets/images/down.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3.0.3/themes/classic/assets/images/down.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1
+
+Debug Message:
+	TaskID=116  URL=http://10.7.90.205/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/14
+
+Debug Message:
+	TaskID=120  URL=http://10.7.90.205/bugfree3.0.3/index.php/bug/14
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/search/getPreNextId?id=14&type=bug&product_id=1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.205/bugfree3.0.3/index.php/bug/14
+

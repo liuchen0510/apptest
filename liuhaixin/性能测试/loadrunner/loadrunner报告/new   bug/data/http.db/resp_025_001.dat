@@ -1,0 +1,348 @@
+11067
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="en" />
+        <link rel="stylesheet" type="text/css" href="/bugfree3.0.3/themes/classic/assets/css/form.css" />
+        <link rel="stylesheet" type="text/css" href="/bugfree3.0.3/themes/classic/assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="/bugfree3.0.3/themes/classic/assets/css/bugfree3_basic.css" />
+                                        <script type="text/javascript" src="/bugfree3.0.3/themes/classic/assets/js/overlib.js"></script>
+        <script type="text/javascript" src="/bugfree3.0.3/themes/classic/assets/js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="/bugfree3.0.3/assets/4b9d3645/zTreeStyle.css" />
+<link rel="stylesheet" type="text/css" href="/bugfree3.0.3/assets/ab61b02b/thickbox.css" />
+<link rel="stylesheet" type="text/css" href="/bugfree3.0.3/assets/ab61b02b/jquery.autocomplete.css" />
+<link rel="stylesheet" type="text/css" href="/bugfree3.0.3/assets/10643704/jui/css/base/jquery-ui.css" />
+<script type="text/javascript" src="/bugfree3.0.3/assets/10643704/jquery.min.js"></script>
+<script type="text/javascript" src="/bugfree3.0.3/assets/10643704/jquery.bgiframe.js"></script>
+<script type="text/javascript" src="/bugfree3.0.3/assets/4b9d3645/jquery.ztree.js"></script>
+<script type="text/javascript" src="/bugfree3.0.3/assets/ab61b02b/jquery.ajaxQueue.js"></script>
+<script type="text/javascript" src="/bugfree3.0.3/assets/ab61b02b/jquery.cookie.js"></script>
+<script type="text/javascript" src="/bugfree3.0.3/assets/ab61b02b/json2.js"></script>
+<script type="text/javascript" src="/bugfree3.0.3/assets/ab61b02b/jquery.autocomplete.js"></script>
+<script type="text/javascript" src="/bugfree3.0.3/themes/classic/assets/js/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/bugfree3.0.3/themes/classic/assets/js/jquery.form.js"></script>
+<title>BugFree</title>
+    </head>
+    <body>
+        <link rel="stylesheet" type="text/css" href="/bugfree3.0.3/themes/classic/assets/css/blue.css" />
+<link rel="shortcut icon" href="/bugfree3.0.3/favicon_blue.ico" type="image/x-icon" />
+<div style="height: 100%;">
+    <div id="top">
+        <div id="logo">
+            <a href="/bugfree3.0.3/index.php/bug/list/1">
+                <img src="/bugfree3.0.3/themes/classic/assets/images/blue/logo.png"
+                     alt="BugFree" title="BugFree"/>
+            </a>
+        </div>
+        <div id="top-nav">
+            <ul class="menu">
+                <li id="bug">
+                    <a class="selectedtab" href="/bugfree3.0.3/index.php/bug/list/1" >Bug</a>
+                </li>
+                <li id="case">
+                    <a class="" href="/bugfree3.0.3/index.php/case/list/1">Case</a>
+                </li>
+                <li id="result">
+                    <a class="" href="/bugfree3.0.3/index.php/result/list/1">Result</a>
+                </li>
+                <li id="createli">
+                </li>
+            </ul>
+        </div>
+        <div class="user-info">
+            欢迎,&nbsp;&nbsp;系统管理员&nbsp;|&nbsp;<a target='_blank' href='/bugfree3.0.3/index.php/testUser/edit/1'>编辑我的信息</a>&nbsp;|&nbsp;<a target='_blank' href='/bugfree3.0.3/index.php/product/index'>后台管理</a>&nbsp;|&nbsp;<a href='/bugfree3.0.3/index.php/site/logout'>退出</a>&nbsp;|&nbsp;<a href='http://testing.etao.com/handbook/bugfree' target='_blank'>帮助</a></div>
+    </div>
+    <div id="indexmain" class="maincontainer">
+        <script type="text/javascript">
+    var $infoType = 'bug';
+    var $baseUrl = '/bugfree3.0.3'
+    var $showType = 'grid';
+    var $productId = 1;
+    var $imgFolder = '/bugfree3.0.3/themes/classic/assets/images/';
+    var $productModuleId = 0;
+    var $totalNum = 14;
+    var $totalNumErrorStr = '数量不能超过 5000 个，操作失败！';
+    var $emptyTemplateTip = '当前没有模板可使用，请在编辑页面保存模板。';
+    var $showMyQueryDiv = '1';
+    function reloadPage(event, treeId, treeNode)
+    {
+        window.location = '/bugfree3.0.3/index.php/bug/list/1?productmodule_id='+
+            treeNode.id;
+    }
+    function disableHiddenPager()
+    {
+        $('div.pager li.hidden a').removeAttr('href');
+    }
+    $(function(){
+        initShowGotoBCR();
+        setSearchHeight();
+        initTreeHeight();
+        disableHiddenPager();
+
+        if('result' != $infoType)
+        {
+            $('#create_div').css({left:$('#createli').offset().left+4+'px'});
+            $('#create_div').show();
+            var inNewDiv = false;
+            $('#create_div_more').bind('mouseenter',function(){
+                showCreate();
+            })
+            $('#create_div_more').bind('mouseleave',function(){
+                setTimeout(function(){
+                    if(!inNewDiv)
+                    {
+                        $('#create_template_div').hide();
+                        $('#create_div_more').removeClass('show_template');
+                    }
+                },100);
+            })
+            $('#create_template_div').bind('mouseleave',function(){
+                inNewDiv = false;
+                $('#create_div_more').removeClass('show_template');
+                $(this).hide();
+            })
+            $('#create_template_div').bind('mouseenter',function(){
+                inNewDiv = true;
+            })
+        }
+    })
+
+    function showCreate() {
+        $('#create_div_more').addClass('show_template');
+        var inputOffset = $('#create_div_more').offset();
+        $("#create_template_div").bgiframe();
+        $("#create_template_div").css({
+            left:inputOffset.left + "px",
+            top:(inputOffset.top + $("#create_div_more").outerHeight()-1) + "px"
+        }).show();
+    }
+
+    function deleteTemplateOrQuery($operationType,$id)
+    {
+        if(!confirm('确认删除?'))
+        {
+            return;
+        }
+        else
+        {
+            jQuery.get("/bugfree3.0.3/index.php/search/deleteTemplateOrQuery", {'id':$id,'type':$operationType}, function (data, textStatus){
+                if('success' == textStatus)
+                {
+                    $('#user_'+$operationType+'_'+$id).remove();
+                    if('query' == $operationType)
+                    {
+                        window.location.href = window.location.href;
+                    }
+                    else
+                    {
+                        $templateLi = $('#create_template_div ul li');
+                        if(0 == $templateLi.length)
+                        {
+                            $('#create_template_div').empty().append($emptyTemplateTip);
+                        }
+                    }                   
+                }
+            });
+        }
+        return false;
+    }
+
+    function exportXml()
+    {
+        if($totalNum>5000)
+        {
+            alert($totalNumErrorStr);
+        }
+        else
+        {
+            var $oldAction = document.SearchBug.action;
+            document.SearchBug.action = '/bugfree3.0.3/index.php/info/export?type=bug&product_id=1';
+            document.SearchBug.submit();
+            document.SearchBug.action = $oldAction;
+        }
+    }
+    function mark($infoId,$isAdd)
+    {
+        jQuery.get("/bugfree3.0.3/index.php/search/mark", {'id':$infoId,'type':$infoType,'isAdd':$isAdd}, function (data, textStatus){
+            if('success' == textStatus)
+            {
+                $isAdd = 1-$isAdd;
+                $('#marklink'+$infoId+' img').attr('src','/bugfree3.0.3/themes/classic/assets/images/'+'flag_'+$isAdd+'.gif');
+                $('#marklink'+$infoId).attr('href','javascript:mark('+$infoId+','+$isAdd+');void(0);');
+            }
+        });
+    }
+    $(window).resize(function() {
+        setSearchHeight();
+        resetTreeHeight();
+    });
+
+    function expandLeft()
+    {
+        var $leftDiv = $('#leftindex');
+        var $rightDiv = $('#rightindex');
+        var $img = $('#expandindex img');
+        var $expand = 0;
+        if('none' == $leftDiv.css('display'))
+        {
+            $expand = 1;
+            $leftDiv.removeClass('not_expand');
+            $rightDiv.removeClass('not_expand');
+            $img.attr('src', '/bugfree3.0.3/themes/classic/assets/images//late_left.gif');
+        }
+        else
+        {
+            $leftDiv.addClass('not_expand');
+            $rightDiv.addClass('not_expand');
+            $img.attr('src', '/bugfree3.0.3/themes/classic/assets/images//late_right.gif');
+        }
+        jQuery.get("/bugfree3.0.3/index.php/search/setExpand", {'expand':$expand}, function (data, textStatus){
+            if('success' == textStatus)
+            {
+            }
+        });
+    }
+
+    function setOutputType()
+    {
+        var showType = 'report';
+        if($showType == 'report')
+        {
+            showType = 'grid';
+        }
+        $.get("/bugfree3.0.3/index.php/page/setOutPutType",
+        {'product_id':$productId,'info_type':$infoType,'show_type':showType},
+        function(){window.location.href=window.location.href;window.location.reload;})
+    }
+
+    function setSearchHeight()
+    {
+        $height = $(window).height();
+        $topheight = $('#SearchBlankCover').height();
+        $('#indexmain').css('height',$height-63+'px');
+        $('#SearchResultDiv').css('height',$height-$topheight-94+'px');
+        $('#expandindex').show();
+    }
+
+    function initTreeHeight()
+    {
+        $height = $(window).height();
+        $queryDiv = $('div.querydiv');
+        if($showMyQueryDiv == '1')
+        {
+            $queryDiv.show();
+            $('#product_module_tree').css('height',$height-320+'px');
+            $('#query_div_switch').attr("src", $imgFolder+'/close_div.gif');
+        }
+        else
+        {
+            $queryDiv.hide();
+            $('#product_module_tree').css('height',$height-120+'px');
+            $('#query_div_switch').attr("src", $imgFolder+'/open_div.gif');
+        }
+    }
+
+    function resetTreeHeight()
+    {
+        $height = $(window).height();
+        $queryDiv = $('div.querydiv');      
+        if($queryDiv.is(':visible'))
+        {
+            $('#product_module_tree').css('height',$height-320+'px');
+        }
+        else
+        {
+            $('#product_module_tree').css('height',$height-120+'px');
+        }
+    }
+
+    function setQueryHeight()
+    {
+        $queryDiv = $('div.querydiv');
+        var $expand = 0;
+        if($queryDiv.is(':visible'))
+        {
+            $('#product_module_tree').css('height',$height-120+'px');
+            $('#query_div_switch').attr("src", $imgFolder+'/open_div.gif');
+            $queryDiv.hide();
+        }
+        else
+        {
+            $expand = 1;
+            $('#product_module_tree').css('height',$height-320+'px');
+            $('#query_div_switch').attr("src", $imgFolder+'/close_div.gif');
+            $queryDiv.show();
+        }
+        jQuery.get("/bugfree3.0.3/index.php/search/setMyQueryDiv", {'expand':$expand}, function (data, textStatus){});
+    }
+
+    function zTreeOnAsyncSuccess(event, treeId, msg)
+    {
+        var node = product_module_treeTree.getNodeByParam("id",$productModuleId);
+        var selectedNode = product_module_treeTree.getSelectedNode();
+        if(node != selectedNode)
+        {
+            product_module_treeTree.selectNode(node);
+        }
+    }
+    function importCase()
+    {
+        $('#import_case_dialog').dialog('open');
+        return false;
+    }
+    function caseBatchRun()
+    {
+        if(0 == $totalNum)
+        {
+            alert('请至少选择一个 Case');
+        }
+        else if(100<$totalNum)
+        {
+            alert('批量运行不能超过 100 个 Case，请缩小查询条件的范围。');
+        }
+        else
+        {
+            openWindow('/bugfree3.0.3/index.php/info/edit?type=result&action=batch_opened&batch_product_id=1','_blank');
+        }
+    }
+</script>
+<div id="create_div" >
+    <img style="float:left;" src="/bugfree3.0.3/themes/classic/assets/images/add.gif">
+    <a href="/bugfree3.0.3/index.php/info/edit?type=bug&action=opened&product_id=1" target="_blank">&nbsp;新建&nbsp;Bug&nbsp;&nbsp;&nbsp;</a>
+    <img id="create_div_more" src="/bugfree3.0.3/themes/classic/assets/images/create_down.gif">
+</div>
+<div id="create_template_div" class="createtemplate" style="display:none;" onmouseover="inNewDiv = true;">
+    当前没有模板可使用，请在编辑页面保存模板。</div>
+<div id="leftindex" class="">
+    <div class="leftmenu"><select onchange="window.location=&#039;/bugfree3.0.3/index.php/info/index?type=bug&amp;product_id=&#039;+$(this).val()" style="font-size:16px;" name="product_name" id="product_name">
+<option value="1" selected="selected">Sample Product</option>
+</select></div>    <div id="product_module_tree" class="leftmenu" style="overflow-y:scroll;overflow-x: auto;padding-top: 0px;margin-top: 0px;"></div>
+    
+        <div id="querymenu" class="leftmenu" style="height:auto;position: absolute;bottom:16px;left: 20px;width: 230px;">
+        <div class="title">
+            <a href="#" onclick="setQueryHeight();return false;" style="float:right;margin-bottom: -8px;">
+                <img id="query_div_switch" src="/bugfree3.0.3/themes/classic/assets/images/close_div.gif" >
+            </a>
+            我的查询          
+        </div>
+        <div class="querydiv" style="">
+            <ul>
+                <li><a class="basic" href="/bugfree3.0.3/index.php/bug/list/1?query_id=-3" title="我的标记">我的标记</a></li><li><a class="basic" href="/bugfree3.0.3/index.php/bug/list/1?query_id=-2" title="指派给我"><span style="font-weight:bold;">指派给我(13)</span></a></li><li><a class="basic" href="/bugfree3.0.3/index.php/bug/list/1?query_id=-1" title="由我创建"><span style="font-weight:bold;">由我创建(14)</span></a></li>            </ul>
+        </div>
+    </div>
+</div>
+<div id="expandindex" onclick="expandLeft();" style="display:none;">
+    <table cellpadding="0" cellspacing="0" border="0" style="height:100%;">
+        <tr>
+            <td style="vertical-align: middle;margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;width: 10px;">
+                <img src="/bugfree3.0.3/themes/classic/assets/images/late_left.gif" alt=""/>            </td>
+        </tr>
+    </table>
+</div>
+<div id="rightindex" class="">
+    <script type="text/javascript">
+
+var limitedFieldCount = 8;               //the max search row num
+var templateFieldNumber = '999999';        //template number
+var searchConditionTmp = '<tr class=\"SearchConditionRow\" id=\"SearchConditionRow999999\"><td><select id=\"BugFreeQuery_leftParenthesesName999999\" onchange=\"validateParentheses()\" style=\"width:40px;\" name=\"BugFreeQuery[leftParenthesesName999999]\"><option value=\"\" selected=\"selected\"></option><option value=\"(\">(</option></select></td><td><select id=\"BugFreeQuery_field999999\" onchange=\"updateQueryRow(999999);\" name=\"BugFreeQuery[field999999]\"><option value=\"id\" selected=\"selected\">ID</option><option value=\"title\">Bug标题</option><option value=\"module_name\">模块路径</option><option value=\"bug_status\">状态</option><option value=\"assign_to_name\">指派给</option><option value=\"mail_to\">抄送给</option><option value=\"severity\">严重程度</option><option value=\"priority\">优先级</option><option value=\"updated_by_name\">修改者</option><option value=\"updated_at\">修改日期</option><option value=\"created_by_name\">创建者</option><option value=\"created_at\">创建日期</option><option value=\"resolved_by_name\">解决者</option><option value=\"resolved_at\">解决日期</option><option value=\"duplicate_id\">重复 Bug</option><option value=\"closed_by_name\">关闭者</option><option value=\"clo
