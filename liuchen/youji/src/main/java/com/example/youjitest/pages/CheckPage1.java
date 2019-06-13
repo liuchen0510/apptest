@@ -24,7 +24,7 @@ public class CheckPage1 {
         action = new Actions(driver);
     }
 
-    public void cmap() {
+    public void check1() {
         action.click(txt_title1);
         action.click(txt_title2);
         action.click(txt_title3);
