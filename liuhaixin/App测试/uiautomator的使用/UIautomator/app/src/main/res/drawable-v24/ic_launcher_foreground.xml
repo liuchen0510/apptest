@@ -1,0 +1,106 @@
+<application>
+    <component name="ActionsCollector">
+        <counts>
+            <entry
+                action="$Copy"
+                count="14" />
+            <entry
+                action="$Delete"
+                count="33" />
+            <entry
+                action="$Paste"
+                count="20" />
+            <entry
+                action="$SelectAll"
+                count="19" />
+            <entry
+                action="$Undo"
+                count="160" />
+            <entry
+                action="About"
+                count="3" />
+            <entry
+                action="Android.CreateResourceDirectory"
+                count="3" />
+            <entry
+                action="Android.CreateSampleDataDirectory"
+                count="1" />
+            <entry
+                action="Android.RunAndroidAvdManager"
+                count="5" />
+            <entry
+                action="Android.RunAndroidSdkManager"
+                count="2" />
+            <entry
+                action="Android.SyncProject"
+                count="1" />
+            <entry
+                action="AndroidConnectDebuggerAction"
+                count="1" />
+            <entry
+                action="Back"
+                count="5" />
+            <entry
+                action="CleanGradleProject"
+                count="2" />
+            <entry
+                action="CommentByLineComment"
+                count="1" />
+            <entry
+                action="ConsoleView.ClearAll"
+                count="3" />
+            <entry
+                action="CreateLibraryFromFile"
+                count="2" />
+            <entry
+                action="CreateResourceBundle"
+                count="1" />
+            <entry
+                action="DebugClass"
+                count="1" />
+            <entry
+                action="DialogOkAction Enter"
+                count="1" />
+            <entry
+                action="EditorBackSpace"
+                count="1374" />
+            <entry
+                action="EditorChooseLookupItem"
+                count="2" />
+            <entry
+                action="EditorCopy"
+                count="57" />
+            <entry
+                action="EditorCut"
+                count="1" />
+            <entry
+                action="EditorDown"
+                count="1486" />
+            <entry
+                action="EditorEnter"
+                count="46" />
+            <entry
+                action="EditorLeft"
+                count="53" />
+            <entry
+                action="EditorPaste"
+                count="107" />
+            <entry
+                action="EditorRight"
+                count="21" />
+            <entry
+                action="EditorUp"
+                count="948" />
+            <entry
+                action="ExternalSystem.AttachProject"
+                count="1" />
+            <entry
+                action="FileChooser.GotoDesktop"
+                count="1" />
+            <entry
+                action="FileChooser.GotoHome"
+                count="2" />
+            <entry
+                action="FileChooser.NewFolder"
+                count="1" />
+            <entry action="Fil
