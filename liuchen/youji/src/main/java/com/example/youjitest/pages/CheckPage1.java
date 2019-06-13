@@ -25,9 +25,9 @@ public class CheckPage1 {
     }
 
     public void check1() {
-        action.click(txt_title1);
-        action.click(txt_title2);
-        action.click(txt_title3);
+        action.click(title1);
+        action.click(title2);
+        action.click(title3);
         action.click(collection);
 
     }
