@@ -12,7 +12,8 @@ public class SubmitTest extends BasePrepare {
     @Test(dataProvider = "")
     public void submittest(){
         Submit su =new  Submit(getDriver());
-        su.submit("今天周三");
+        su.submitsuccess("今天周三");
+        su.submitfail("今天周三");
         System.out.print(getDriver().currentActivity());
         Assert.assertEquals(".MainActivity",getDriver().currentActivity());
     }

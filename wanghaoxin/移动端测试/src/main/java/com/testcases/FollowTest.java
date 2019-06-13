@@ -1,16 +1,18 @@
 package com.testcases;
 
 import com.base.BasePrepare;
-import com.pages.ScanMessage;
+import com.pages.Follow;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ScanMessageTest extends BasePrepare {
+import neet.com.youjidemo.bean.Follow;
+
+public class FollowTest extends BasePrepare {
     @Test(dataProvider = "")
-    public void ScanMessage(){
-        ScanMessage scan=new ScanMessage(getDriver());
-        scan.scanMessage();
+    public void Followtest(){
+        Follow f=new Follow(getDriver());
+        f.follow();
         System.out.print(getDriver().currentActivity());
         Assert.assertEquals(".MainActivity",getDriver().currentActivity());
     }

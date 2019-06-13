@@ -8,12 +8,12 @@ import org.testng.annotations.Test;
 
 public class Login extends BasePrepare {
     @Test
-    public void loginsuccess() throws InterruptedException {
+    public void login(String a,String b) throws InterruptedException {
       driver.findElementByXPath("//*[@text='我']").click();
       driver.findElementById("neet.com.youjidemo:id/iv_head_sculpture").click();
-      driver.findElementById("neet.com.youjidemo:id/et_userPhone").sendKeys("123456");
-      driver.findElement(By.className("android.widget.RelativeLayout")).sendKeys("123456");
+      driver.findElementById("neet.com.youjidemo:id/et_userPhone").sendKeys(a);
+      driver.findElement(By.className("android.widget.RelativeLayout")).sendKeys(b);
       driver.findElementById("neet.com.youjidemo:id/btn_login").click();
-      Thread.sleep(5000);
+      Thread.sleep(1000);
 }
 }

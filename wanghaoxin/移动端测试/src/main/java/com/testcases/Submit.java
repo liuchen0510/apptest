@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class Submit extends BasePrepare {
     @Test
-    public void submit(String a) throws InterruptedException {
+    public void submitsuccess(String a) throws InterruptedException {
         driver.findElementById("neet.com.youjidemo:id/tab_icon").click();
         driver.findElementById("neet.com.youjidemo:id/et_share_passage").clear();
         driver.findElementById("neet.com.youjidemo:id/et_share_passage").sendKeys(a);
@@ -18,4 +18,12 @@ public class Submit extends BasePrepare {
         driver.findElementByName("上传").click();
 
 }
+    public void submitfail(String a) throws InterruptedException {
+        driver.findElementById("neet.com.youjidemo:id/tab_icon").click();
+        driver.findElementById("neet.com.youjidemo:id/et_share_passage").clear();
+        driver.findElementById("neet.com.youjidemo:id/et_share_passage").sendKeys(a);
+        driver.findElementByName("上传").click();
+        //提示请选择图片
+
+    }
 }

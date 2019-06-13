@@ -8,7 +8,7 @@ public class Listory extends BasePrepare {
     public void listory() throws InterruptedException {
         driver.findElementByName("我").click();
         driver.findElementByName("足迹").click();
-        Thread.sleep(5000);
+        Thread.sleep(1000);
 
     }
 }

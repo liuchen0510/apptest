@@ -14,7 +14,6 @@ public class Message extends BasePrepare {
         driver.findElementByName("编辑资料").click();
         driver.findElementById("neet.com.youjidemo:id/pde_et_introduction").clear();
         driver.findElementById("neet.com.youjidemo:id/pde_et_introduction").sendKeys(a);
-        driver.findElementById("neet.com.youjidemo:id/pde_et_name").clear();
         driver.findElementById("neet.com.youjidemo:id/pde_et_name").sendKeys(b)
         driver.findElementById(" neet.com.youjidemo:id/pde_tv_sex").click();
         driver.findElementByName(c).click();
