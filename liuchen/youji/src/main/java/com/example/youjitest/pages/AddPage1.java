@@ -6,23 +6,23 @@ import org.openqa.selenium.support.FindBy;
 
 import io.appium.java_client.AppiumDriver;
 
-public class AddatentionPage {
+public class AddPage1 {
     private AppiumDriver driver;
-    @FindBy(xpath = "\"//*[@text='社区']\"")
-    private WebElement txt_title;
+    @FindBy(name="社区")
+    private WebElement title;
     @FindBy(id="neet.com.youjidemo:id/image_btn_food")
-    private WebElement txt_food;
+    private WebElement food;
     @FindBy(id="neet.com.youjidemo:id/btn_care")
-    private WebElement txt_care;
+    private WebElement care;
     Actions action;
-    public AddatentionPage(AppiumDriver driver) {
+    public AddPage1(AppiumDriver driver) {
 
         this.driver = driver;
         action = new Actions(driver);
     }
     public void atention(String name, String password) {
-        action.click(txt_title);
-        action.click(txt_food);
-        action.click(txt_care);
+        action.click(title);
+        action.click(food);
+        action.click(care);
     }
 }
