@@ -21,7 +21,7 @@ public class AddPage2{
     @FindBy(xpath = "\"//*[@text='上传']\"")
     private WebElement upload;
     Actions action;
-    public AddcommentPage(AppiumDriver driver) {
+    public AddPage2(AppiumDriver driver) {
 
         this.driver = driver;
         action = new Actions(driver);
