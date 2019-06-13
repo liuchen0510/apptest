@@ -20,7 +20,7 @@ public class AddPage1 {
         this.driver = driver;
         action = new Actions(driver);
     }
-    public void atention(String name, String password) {
+    public void add1(String name, String password) {
         action.click(title);
         action.click(food);
         action.click(care);
