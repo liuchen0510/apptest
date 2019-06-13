@@ -1,0 +1,293 @@
+[Network Analyzer ( d28: d60)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( d28: d60)] Load Network Traffic Analyzers:
+[Network Analyzer ( d28: d60)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( d28: d60)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( d28: d60)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( d28: d60)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( d28: d60)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer ( d28: d60)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( d28: d60)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( d28: d68)] Address lookup for wanghaox-90c692 = 10.0.2.15
+[Network Analyzer ( d28: d6c)] Address lookup for wanghaox-90c692 = 10.0.2.15
+[Network Analyzer ( d28: d6c)] Request Connection: Remote Server @ 10.7.90.40:8033   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( d28: d68)] "GET /bugfree3/index.php/bug/list/1"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1228 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 2840 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 9433 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/css/form.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1343 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 1041 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d6c)] Address lookup for wanghaox-90c692 = 10.0.2.15
+[Network Analyzer ( d28: d6c)] Request Connection: Remote Server @ 10.7.90.40:8033   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/css/bugfree3_basic.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1353 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/css/style.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1344 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 2822 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 1093 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/js/overlib.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1344 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 15029 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/js/main.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1341 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 1137 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/f7198d0a/thickbox.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1337 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/eb62f111/zTreeStyle.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1339 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 1383 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 1601 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jquery.min.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1338 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/f7198d0a/jquery.autocomplete.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1348 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 777 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 15917 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jui/css/base/jquery-ui.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1351 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 4999 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jquery.bgiframe.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1343 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 1125 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/eb62f111/jquery.ztree.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1340 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 15980 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 2186 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/f7198d0a/jquery.ajaxQueue.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1344 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 1344 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/f7198d0a/jquery.cookie.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1341 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 1053 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/f7198d0a/json2.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1333 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 5764 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/f7198d0a/jquery.autocomplete.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1347 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 7788 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/js/jquery.tools.min.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1353 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 4900 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/js/jquery.form.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1348 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 9467 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/css/blue.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1343 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/blue/logo.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1351 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 723 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 1705 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/add.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1345 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/create_down.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1353 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 368 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 397 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/add_search.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1352 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/flag_1.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1348 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 368 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 448 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jui/js/jquery-ui.min.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1348 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/close_div.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1351 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 2784 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/late_left.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1351 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 842 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/down.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1346 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 345 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/active.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1348 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 507 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images//close_div.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1352 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1491 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1376 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 365 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1376 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 365 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1385 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 376 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-icons_222222_256x240.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1372 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 4093 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "POST /bugfree3/index.php/search/getProductModule"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 31 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-icons_222222_256x240.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1372 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 4093 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1376 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 365 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 502 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/eb62f111/img/page.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1337 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 866 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/index.php/info/edit?type=bug&action=opened&product_id=1"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1364 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 6157 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/css/form.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1441 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/css/style.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1442 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/css/bugfree3_basic.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1451 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 188 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 189 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/js/overlib.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1443 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 189 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/js/main.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1439 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/f7198d0a/thickbox.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1435 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/f7198d0a/jquery.autocomplete.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1445 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 188 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jui/css/base/jquery-ui.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1450 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jquery.min.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1437 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 189 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 190 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jquery.multifile.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1379 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 6537 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jquery.bgiframe.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1441 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/f7198d0a/jquery.ajaxQueue.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1442 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/f7198d0a/jquery.cookie.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1439 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/f7198d0a/json2.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1432 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 189 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/f7198d0a/jquery.autocomplete.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1446 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 189 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/2e776087/kindeditor-min.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1377 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 12223 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/2e776087/lang/zh_CN.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1373 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 3090 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/2e776087/plugins/preview/preview.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1386 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 907 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/js/jquery.tools.min.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1452 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 189 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/js/jquery.form.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1447 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 189 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/css/blue.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1440 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/blue/logo.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1472 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jui/js/jquery-ui.min.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1448 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 188 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 190 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/active.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1468 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 187 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1496 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1505 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 187 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-icons_222222_256x240.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1493 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/2e776087/themes/default/default.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  2) Client -> Server : 1386 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Server -> Client : 3414 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/2e776087/themes/default/default.png"   
+[Network Analyzer ( d28: d68)]   (Sid:  1) Client -> Server : 1386 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Server -> Client : 8685 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer ( d28: d68)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer ( d28: d88)] Address lookup for wanghaox-90c692 = 10.0.2.15
+[Network Analyzer ( d28: d88)] Request Connection: Remote Server @ 10.7.90.40:8033   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/f7198d0a/indicator.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  3) Client -> Server : 1373 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  3) Server -> Client : 1847 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( d28: d88)] Address lookup for wanghaox-90c692 = 10.0.2.15
+[Network Analyzer ( d28: d88)] Request Connection: Remote Server @ 10.7.90.40:8033   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( d28: d68)] "POST /bugfree3/index.php/info/edit?type=bug&action=opened&product_id=1"   
+[Network Analyzer ( d28: d68)]   (Sid:  4) Client -> Server : 4931 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  4) Server -> Client : 603 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  4) Server -> Client : 4260 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  4) Server -> Client : 1507 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/index.php/bug/list/1"   
+[Network Analyzer ( d28: d68)]   (Sid:  4) Client -> Server : 1426 bytes (Service=HTTP)
+[Network Analyzer ( d28: d88)] Address lookup for wanghaox-90c692 = 10.0.2.15
+[Network Analyzer ( d28: d88)] Request Connection: Remote Server @ 10.7.90.40:8033   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( d28: d68)]   (Sid:  4) Server -> Client : 12161 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/index.php/bug/1142"   
+[Network Analyzer ( d28: d68)]   (Sid:  5) Client -> Server : 1424 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/eb62f111/zTreeStyle.css"   
+[Network Analyzer ( d28: d68)]   (Sid:  4) Client -> Server : 1402 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  4) Server -> Client : 189 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/eb62f111/jquery.ztree.js"   
+[Network Analyzer ( d28: d68)]   (Sid:  4) Client -> Server : 1404 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  4) Server -> Client : 190 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  5) Server -> Client : 2840 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  5) Server -> Client : 1956 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/add.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  4) Client -> Server : 1430 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  4) Server -> Client : 187 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/create_down.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  5) Client -> Server : 1438 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/late_left.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  4) Client -> Server : 1437 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  5) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  4) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/close_div.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  5) Client -> Server : 1436 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  5) Server -> Client : 187 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/add_search.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  4) Client -> Server : 1437 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/flag_1.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  5) Client -> Server : 1433 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  4) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  5) Server -> Client : 187 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images/down.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  4) Client -> Server : 1431 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  4) Server -> Client : 187 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/index.php/search/getPreNextId?id=1142&type=bug&product_id=1"   
+[Network Analyzer ( d28: d68)]   (Sid:  5) Client -> Server : 1400 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  5) Server -> Client : 611 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/themes/classic/assets/images//close_div.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  4) Client -> Server : 1437 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  4) Server -> Client : 187 bytes  (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  5) Client -> Server : 1491 bytes (Service=HTTP)
+[Web Request      ( d28: d68)] "POST /bugfree3/index.php/search/getProductModule"   
+[Network Analyzer ( d28: d68)]   (Sid:  5) Client -> Server : 31 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  5) Server -> Client : 502 bytes  (Service=HTTP)
+[Web Request      ( d28: d68)] "GET /bugfree3/assets/eb62f111/img/page.gif"   
+[Network Analyzer ( d28: d68)]   (Sid:  4) Client -> Server : 1423 bytes (Service=HTTP)
+[Network Analyzer ( d28: d68)]   (Sid:  4) Server -> Client : 188 bytes  (Service=HTTP)

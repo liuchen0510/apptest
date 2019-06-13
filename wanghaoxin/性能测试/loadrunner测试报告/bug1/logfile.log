@@ -1,0 +1,5 @@
+Action.c (126): missing "
+Action.c (127): undeclared identifier `ENDITEM'
+Action.c (144): undeclared identifier `LAST'
+Action.c (147): missing "
+c:\\documents and settings\\administrator\\\327\300\303\346\\bug1\\\\combined_bug1.c (5): 4 errors, not writing pre_cci.ci

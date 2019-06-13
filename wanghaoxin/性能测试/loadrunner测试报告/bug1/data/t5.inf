@@ -1,0 +1,15 @@
+[t5]
+FileName1=t5.htm
+URL1=http://10.7.90.40:8033/bugfree3/index.php/search/userList?p=-1&q=&limit=60&timestamp=1558939335090
+Total=2
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5_indicator.gif
+URL2=http://10.7.90.40:8033/bugfree3/assets/f7198d0a/indicator.gif
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

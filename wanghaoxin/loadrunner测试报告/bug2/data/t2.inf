@@ -1,0 +1,15 @@
+[t2]
+FileName1=t2.htm
+URL1=http://10.7.90.40:8033/bugfree3/index.php/search/getProductModule
+Total=2
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=t2_RequestBody.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_page.gif
+URL2=http://10.7.90.40:8033/bugfree3/assets/eb62f111/img/page.gif
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

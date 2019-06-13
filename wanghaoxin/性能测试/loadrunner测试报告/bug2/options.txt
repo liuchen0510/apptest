@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Documents and Settings\Administrator\桌面\bug2
+-IC:\Program Files\HP\LoadRunner\include
+-ec:\documents and settings\administrator\桌面\bug2\\logfile.log
+c:\documents and settings\administrator\桌面\bug2\\combined_bug2.c
+c:\documents and settings\administrator\桌面\bug2\\pre_cci.c

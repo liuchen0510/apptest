@@ -1,0 +1,1 @@
+-usr "C:\Documents and Settings\Administrator\桌面\bug1\bug1.usr" -compile_only -out "C:\Documents and Settings\Administrator\桌面\bug1\" -drv_log_file "C:\Documents and Settings\Administrator\桌面\bug1\mdrv.log" -cfg "C:\Documents and Settings\Administrator\桌面\bug1\default.cfg" -product_name vugen

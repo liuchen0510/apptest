@@ -1,0 +1,12 @@
+GET /bugfree3/index.php/search/getPreNextId?id=2&type=case&product_id=1 HTTP/1.1
+x-requested-with: XMLHttpRequest
+Accept-Language: zh-cn
+Referer: http://10.7.90.40:8033/bugfree3/index.php/case/2
+Accept: */*
+UA-CPU: x86
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Host: 10.7.90.40:8033
+Connection: Keep-Alive
+Cookie: f1c20ba73092eb6e1cf3b06df3909f12=efebd56278760da4b4ac421d65ee9f658407d4d5s%3A163%3A%22d471e1baf90848d15997733e63e5e2e5064c782fa%3A4%3A%7Bi%3A0%3Bs%3A1%3A%221%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A2%3A%7Bs%3A8%3A%22realname%22%3Bs%3A15%3A%22%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98%22%3Bs%3A8%3A%22username%22%3Bs%3A5%3A%22admin%22%3B%7D%7D%22%3B; language=018b61feb84e580204e1f5bf4ccf16d438218335s%3A5%3A%22zh_cn%22%3B; 1_product=62917ff985fe103a4658deda44ad12d40b66bd4ds%3A1%3A%221%22%3B; pageSize=ae20bd0301698d245c417940f7cb4769fb4edc22s%3A2%3A%2220%22%3B; ac-cookie=%5B%7B%22data%22%3A%5B%22%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98%22%2C%22%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98%5Badmin%5D%22%5D%2C%22value%22%3A%22%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98%22%2C%22result%22%3A%22%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98%22%7D%5D; PHPSESSID=hhhkenah7nc4dbst43m9fsdpe6
+

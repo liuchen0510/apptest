@@ -1,0 +1,210 @@
+Debug Message:
+	Correlation engine instance created; using configuration Default
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	TaskID=3  URL=http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/themes/classic/assets/images/down.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/themes/classic/assets/images/active.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/themes/classic/assets/images//close_div.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/search/getProductModule
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-icons_222222_256x240.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-icons_222222_256x240.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/eb62f111/img/page.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/bug/list/1
+
+Debug Message:
+	TaskID=53  URL=http://10.7.90.40:8033/bugfree3/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/search/getProductModule
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/case/list/1
+
+Debug Message:
+	TaskID=66  URL=http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-icons_222222_256x240.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/2e776087/themes/default/default.css
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/2e776087/themes/default/default.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/f7198d0a/indicator.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_glass_75_e6e6e6_1x400.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_glass_55_fbf9ee_1x400.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/6ac6ee64/jui/css/base/images/ui-bg_glass_75_dadada_1x400.png
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	TaskID=112  URL=http://10.7.90.40:8033/bugfree3/index.php/info/edit?type=case&action=opened&product_id=1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/case/list/1
+
+Debug Message:
+	TaskID=115  URL=http://10.7.90.40:8033/bugfree3/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/case/3
+
+Debug Message:
+	TaskID=118  URL=http://10.7.90.40:8033/bugfree3/index.php/case/3
+
+Debug Message:
+	Rules could not be applied to /bugfree3/themes/classic/assets/images/down.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/search/getPreNextId?id=3&type=case&product_id=1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/case/3
+
+Debug Message:
+	Rules could not be applied to /bugfree3/themes/classic/assets/images//close_div.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/search/getProductModule
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/case/list/1
+
+Debug Message:
+	Rules could not be applied to /bugfree3/assets/eb62f111/img/page.gif
+
+Debug Message:
+	Rules could not be applied to http://10.7.90.40:8033/bugfree3/index.php/case/list/1
+
