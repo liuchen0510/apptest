@@ -1,0 +1,14 @@
+1.游迹环境搭建，由于项目涉及服务器端，数据库，客户端，源码，出现的问题相对较多，因此进度相对缓慢。
+2.使用monkey命令进行安装与卸载，发送伪随机事件，生成log日志
+3.编写Appium测试框架，bases包，pages包，utils包，testcases包
+4.书写测试用例。
+5.编写bugfree测试计划，测试报告
+6.使用loadrunner对BugFree进行脚本录制以及相关的内容添加，得出数据，进行分析，得出结论，完善测试报告
+接下来工作：
+1.完善测试用例，匹配页面元素与test测试类的关系。
+2.编写uiautomator测试用例
+3.书写testng测试报告生成文件
+4.检查项目的遗漏与不足。
+
+地址链接：
+https://github.com/liuchen0510/apptest/tree/master/liuhaixin
