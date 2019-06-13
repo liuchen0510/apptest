@@ -27,7 +27,7 @@ public class AddPage2{
         action = new Actions(driver);
     }
 
-    public void add(String text) {
+    public void add2(String text) {
         action.click(icon);
         action.sendKeys(passage,text);
         action.click(title);
