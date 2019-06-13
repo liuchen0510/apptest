@@ -6,24 +6,24 @@ import org.openqa.selenium.support.FindBy;
 
 import io.appium.java_client.AppiumDriver;
 
-public class AddnotesPage {
+public class AddPage3 {
     private AppiumDriver driver;
     @FindBy(xpath = "\"//*[@text='收藏']\"")
-    private WebElement txt_title;
+    private WebElement title;
     @FindBy(xpath = "\"//*[@text='编辑']\"")
-    private WebElement txt_edit;
+    private WebElement edit;
     @FindBy(id = "neet.com.youjidemo:id/list")
-    private WebElement txt_list;
+    private WebElement list;
     Actions action;
-    public AddnotesPage(AppiumDriver driver) {
+    public AddPage3(AppiumDriver driver) {
 
         this.driver = driver;
         action = new Actions(driver);
     }
-    public void notes(String list) {
-        action.click(txt_title);
-        action.click(txt_edit);
-        action.sendKeys(txt_list, list);
+    public void note(String note) {
+        action.click(title);
+        action.click(edit);
+        action.sendKeys(list, note);
 
     }
 }
