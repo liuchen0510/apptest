@@ -1,0 +1,8 @@
+1.完善项目测试用例部分
+2.编写发送邮件的功能代码，实现testng测试报告的生成。
+3.项目实训展示准备工作
+4.使用jmeter对redmine进行性能测试操作
+5.添加检查点，逻辑控制器等内容
+6.生成性能测试总结
+地址链接
+https://github.com/liuchen0510/apptest/tree/master/liuhaixin
