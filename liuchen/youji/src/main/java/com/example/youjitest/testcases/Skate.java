@@ -1,7 +1,7 @@
 package com.testcases;
 
 import com.base.BaseTest;
-import com.pages.SkateMessagePage;
+import com.pages.SkatePage;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
