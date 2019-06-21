@@ -8,17 +8,17 @@ import org.testng.annotations.Test;
 
 public class Food extends BaseTest {
     @Test(dataProvider = "")
-    public void message(){
-        FoodMessagePage loginPage =new FoodMessagePage(getDriver());
+    public void food(){
+        FoodPage food =new FoodPage(getDriver());
         System.out.print(getDriver().currentActivity());
         Assert.assertEquals(".MainActivity",getDriver().currentActivity());
     }
     /*@Test
-    public void foodm() throws InterruptedException {
-        Thread.sleep(5000);
+    public void food() throws InterruptedException {
+        Thread.sleep(3000);
         driver.findElementByName("美食").click();
-        driver.findElementById("neet.com.youjidemo:id/tv_description").click();
-        Thread.sleep(5000);
-        driver.findElementById("neet.com.youjidemo:id/ib_good").click();
+        driver.findElementById("neet.com.youjidemo:id/description").click();
+        Thread.sleep(3000);
+        driver.findElementById("neet.com.youjidemo:id/good").click();
 }*/
 }
