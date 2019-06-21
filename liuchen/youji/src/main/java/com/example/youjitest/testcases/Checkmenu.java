@@ -1,7 +1,7 @@
 package com.testcases;
 
 import com.base.BaseTest;
-import com.pages.MyListView;
+import com.pages.ListPage;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
