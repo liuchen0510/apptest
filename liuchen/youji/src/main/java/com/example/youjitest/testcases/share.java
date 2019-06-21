@@ -9,13 +9,13 @@ import org.testng.annotations.Test;
 
 public class share extends BaseTest {
     @Test(dataProvider = "")
-    public void notes(){
-        ShareActivity add=new  ShareActivity(getDriver());
+    public void share(){
+        Share share=new  Share(getDriver());
         add.notes("my first share!");
         System.out.print(getDriver().currentActivity());
         Assert.assertEquals(".MainActivity",getDriver().currentActivity());
     /*@Test
-    public void addnotes() throws InterruptedException {
+    public void share() throws InterruptedException {
         Thread.sleep(3000);
         driver.findElementByName("收藏").click();
         driver.findElementByName("编辑").click();
