@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class Checkmenu extends BaseTest {
     @Test(dataProvider = "")
     public void menus(){
-        MyListView loginPage =new MyListView(getDriver());
+        ListPage list =new ListPage(getDriver());
         System.out.print(getDriver().currentActivity());
         Assert.assertEquals(".MainActivity",getDriver().currentActivity());
     }
