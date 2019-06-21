@@ -16,7 +16,7 @@ public class SkatePage {
     private WebElement good;
     Actions action;
 
-    public SkateMessagePage(AppiumDriver driver) {
+    public SkatePage(AppiumDriver driver) {
 
         this.driver = driver;
         action = new Actions(driver);
