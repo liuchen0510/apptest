@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.view.KeyEvent;
 import android.widget.VideoView;
 
-public class CustomPage extends VideoPage {
+public class CustomPage extends BaseTest {
     public CustomVideoView(Context context) {
         super(context);
     }
