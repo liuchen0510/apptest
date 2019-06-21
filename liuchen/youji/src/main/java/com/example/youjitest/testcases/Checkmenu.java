@@ -16,7 +16,7 @@ public class Checkmenu extends BaseTest {
     }
 }
    /* @Test
-    public void checkmenu() throws InterruptedException {
+    public void menus() throws InterruptedException {
         Thread.sleep(3000);
         driver.findElementByName("美食").click();
         Thread.sleep(3000);
