@@ -1,7 +1,7 @@
 package com.testcases;
 
 import com.base.BaseTest;
-import com.pages.ShareActivity;
+import com.pages.Share;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
