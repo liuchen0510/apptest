@@ -8,17 +8,17 @@ import org.testng.annotations.Test;
 
 public class Skate extends BaseTest {
     @Test(dataProvider = "")
-    public void message(){
-        SkateMessagePage playmessagePagePage =new SkateMessagePage(getDriver());
+    public void skate(){
+        SkatePage skate =new SkatePage(getDriver());
         System.out.print(getDriver().currentActivity());
         Assert.assertEquals(".MainActivity",getDriver().currentActivity());
     }
     /*@Test
-    public void playm() throws InterruptedException {
-        Thread.sleep(5000);
+    public void skate() throws InterruptedException {
+        Thread.sleep(3000);
         driver.findElementByName("滑冰").click();
-        driver.findElementById("neet.com.youjidemo:id/tv_description").click();
-        Thread.sleep(5000);
-        driver.findElementById("neet.com.youjidemo:id/ib_good").click();
+        driver.findElementById("neet.com.youjidemo:id/des").click();
+        Thread.sleep(3000);
+        driver.findElementById("neet.com.youjidemo:id/good").click();
     }*/
 }
