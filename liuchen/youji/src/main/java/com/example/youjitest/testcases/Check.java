@@ -1,7 +1,7 @@
 package com.testcases;
 
 import com.base.BaseTest;
-import com.pages.ChecktextandsendcommentPage;
+import com.pages.ChecktPage1;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
