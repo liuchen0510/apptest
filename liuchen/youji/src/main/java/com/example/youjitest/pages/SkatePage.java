@@ -6,14 +6,14 @@ import org.openqa.selenium.support.FindBy;
 
 import io.appium.java_client.AppiumDriver;
 
-public class SkateMessagePage {
+public class SkatePage {
     private AppiumDriver driver;
     @FindBy(xpath = "\"//*[@text='滑冰']\"")
-    private WebElement txt_title;
+    private WebElement title;
     @FindBy(id = "neet.com.youjidemo:id/tv_description")
-    private WebElement txt_des;
+    private WebElement des;
     @FindBy(id = "neet.com.youjidemo:id/ib_good")
-    private WebElement txt_good;
+    private WebElement good;
     Actions action;
 
     public SkateMessagePage(AppiumDriver driver) {
@@ -22,9 +22,9 @@ public class SkateMessagePage {
         action = new Actions(driver);
     }
 
-    public void message() {
-        action.click(txt_title);
-        action.click(txt_des);
-        action.click(txt_good);
+    public void skate() {
+        action.click(title);
+        action.click(des);
+        action.click(good);
     }
 }
