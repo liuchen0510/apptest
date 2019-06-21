@@ -16,7 +16,7 @@ public class ShopPage {
     private WebElement good;
     Actions action;
 
-    public ShoppingMessagePage(AppiumDriver driver) {
+    public ShopPage(AppiumDriver driver) {
 
         this.driver = driver;
         action = new Actions(driver);
