@@ -9,19 +9,19 @@ import io.appium.java_client.AppiumDriver;
 public class CommentPage {
     private AppiumDriver driver;
     @FindBy(xpath = "\"//*[@text='社区']\"")
-    private WebElement txt_title;
+    private WebElement title;
     @FindBy(id="neet.com.youjidemo:id/image_btn_food")
-    private WebElement txt_food;
+    private WebElement food;
     @FindBy(xpath = "\"//*[@text='社区']\"")
-    private WebElement txt_shequ;
+    private WebElement shequ;
     @FindBy(id="\"neet.com.youjidemo:id/iv_contentimage\"")
-    private WebElement txt_content;
+    private WebElement content;
     @FindBy(xpath = "\"//*[@text='点击发表你的评论']\"")
-    private WebElement txt_pinglun;
+    private WebElement pinglun;
     @FindBy(id="neet.com.youjidemo:id/comment_content")
-    private WebElement txt_con ;
+    private WebElement con ;
     @FindBy(id="neet.com.youjidemo:id/comment_send")
-    private WebElement txt_send;
+    private WebElement send;
     Actions action;
     public CommentPage(AppiumDriver driver) {
 
@@ -29,13 +29,13 @@ public class CommentPage {
         action = new Actions(driver);
     }
 
-    public void comment(String con) {
-        action.click(txt_title);
-        action.click(txt_food);
-        action.click(txt_shequ);
-        action.click(txt_content);
-        action.click(txt_pinglun);
-        action.sendKeys(txt_con,con);
-        action.click(txt_send);
+    public void comment(String content) {
+        action.click(title);
+        action.click(food);
+        action.click(shequ);
+        action.click(content);
+        action.click(pinglun);
+        action.sendKeys(con,content);
+        action.click(send);
     }
 }
