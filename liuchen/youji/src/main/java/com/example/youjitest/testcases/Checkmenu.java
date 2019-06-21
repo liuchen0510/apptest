@@ -9,14 +9,14 @@ import org.testng.annotations.Test;
 
 public class Checkmenu extends BaseTest {
     @Test(dataProvider = "")
-    public void menus(){
+    public void check2(){
         ListPage list =new ListPage(getDriver());
         System.out.print(getDriver().currentActivity());
         Assert.assertEquals(".MainActivity",getDriver().currentActivity());
     }
 }
    /* @Test
-    public void menus() throws InterruptedException {
+    public void check2() throws InterruptedException {
         Thread.sleep(3000);
         driver.findElementByName("美食").click();
         Thread.sleep(3000);
