@@ -1,7 +1,7 @@
 package com.testcases;
 
 import com.base.BaseTest;
-import com.pages.ShoppingMessagePage;
+import com.pages.ShopePage;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
