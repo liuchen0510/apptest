@@ -6,7 +6,7 @@ import neet.com.youjidemo.bean.LikeUp;
 import neet.com.youjidemo.bean.Url;
 import neet.com.youjidemo.command.PostJson;
 
-public class LikeUpbiz implements ILikeUp {
+public class LikePage {
     private final String LikeUpurl=Url.mURL+"LikeupServlet";
 
     @Override
