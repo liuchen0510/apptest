@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.widget.ListView;
 import android.support.v4.view.NestedScrollingChild;
 
-public class MyListView extends ListView implements NestedScrollingChild {
+public class ListPage implements NestedScrollingChild {
 
     private final NestedScrollingChildHelper mScrollChildHelper;
 
