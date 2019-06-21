@@ -6,25 +6,25 @@ import org.openqa.selenium.support.FindBy;
 
 import io.appium.java_client.AppiumDriver;
 
-public class FoodMessagePage {
+public class FoodPage {
     private AppiumDriver driver;
     @FindBy(xpath = "\"//*[@text='美食']\"")
-    private WebElement txt_title;
+    private WebElement title;
     @FindBy(id = "neet.com.youjidemo:id/tv_description")
-    private WebElement txt_des;
+    private WebElement des;
     @FindBy(id = "neet.com.youjidemo:id/ib_good")
-    private WebElement txt_good;
+    private WebElement good;
     Actions action;
 
-    public FoodMessagePage(AppiumDriver driver) {
+    public FoodPage(AppiumDriver driver) {
 
         this.driver = driver;
         action = new Actions(driver);
     }
 
-    public void message() {
-        action.click(txt_title);
-        action.click(txt_des);
-        action.click(txt_good);
+    public void food() {
+        action.click(title);
+        action.click(des);
+        action.click(good);
     }
 }
