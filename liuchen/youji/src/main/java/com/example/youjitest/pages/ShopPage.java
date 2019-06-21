@@ -6,14 +6,14 @@ import org.openqa.selenium.support.FindBy;
 
 import io.appium.java_client.AppiumDriver;
 
-public class ShoppingMessagePage {
+public class ShopPage {
     private AppiumDriver driver;
-    @FindBy(xpath = "\"//*[@text='逛街']\"")
-    private WebElement txt_title;
+    @FindBy(xpath = "\"//*[@text='购物']\"")
+    private WebElement title;
     @FindBy(id = "neet.com.youjidemo:id/tv_description")
-    private WebElement txt_des;
+    private WebElement des;
     @FindBy(id = "neet.com.youjidemo:id/ib_good")
-    private WebElement txt_good;
+    private WebElement good;
     Actions action;
 
     public ShoppingMessagePage(AppiumDriver driver) {
@@ -22,9 +22,9 @@ public class ShoppingMessagePage {
         action = new Actions(driver);
     }
 
-    public void message() {
-        action.click(txt_title);
-        action.click(txt_des);
-        action.click(txt_good);
+    public void shop() {
+        action.click(title);
+        action.click(des);
+        action.click(good);
     }
 }
