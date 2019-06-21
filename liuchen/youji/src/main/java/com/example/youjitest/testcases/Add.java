@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 
 public class Add extends BaseTest {
     @Test(dataProvider = "")
-    public void attentionpage(){
-        AddatentionPage atentionPage=new  AddatentionPage(getDriver());
+    public void addpage1(){
+        AddPage1 Page1=new  AddPage1(getDriver());
         System.out.print(getDriver().currentActivity());
         Assert.assertEquals(".MainActivity",getDriver().currentActivity());
     }
@@ -16,9 +16,9 @@ public class Add extends BaseTest {
 
 
     /*@Test
-    public void addatention() throws InterruptedException {
-        Thread.sleep(5000);
+    public void addpage1() throws InterruptedException {
+        Thread.sleep(3000);
         driver.findElementByName("社区").click();
-        driver.findElementById("neet.com.youjidemo:id/image_btn_food").click();
-        driver.findElementById("neet.com.youjidemo:id/btn_care").click();
+        driver.findElementById("neet.com.youjidemo:id/food").click();
+        driver.findElementById("neet.com.youjidemo:id/care").click();
     }*/
