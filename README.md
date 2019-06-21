@@ -16,43 +16,44 @@
   
 - Email：[825147384@qq.com](mailto:825147384@qq.com) 
   
-- Github：[https://github.com/liuchen0510/apptest](https://github.com/liuchen0510/apptest)
+- Github：[https://github.com/liuchen0510](https://github.com/liuchen0510)
 
 - 刘海新（测试工程师）
   
 - Email：[3430198340@qq.com](mailto:3430198340@qq.com)
   
-- Github：[https://github.com/liuhaixin/apptest](https://github.com/liuhaixin/apptest)
+- Github：[https://github.com/liuhaixin](https://github.com/liuhaixin)
 
 - 杨凯静（测试工程师）
  
  - Email：[2939479023@qq.com](mailto:2939479023@qq.com)
   
-- Github：[https://github.com/liuchen0510/apptest/tree/master/yangkaijing](https://github.com/liuchen0510/apptest/tree/master/yangkaijing)
+- Github：[https://github.com/qingzhenglive](https://github.com/qingzhenglive)
 
 - 王浩馨（测试工程师）
   
 - Email：[664852088@qq.com](mailto:664852088@qq.com)
   
-- Github：[https://github.com/wanghaoxin1997/apptest.git](https://github.com/wanghaoxin1997/apptest.git)
+- Github：[https://github.com/wanghaoxin1997](https://github.com/wanghaoxin1997)
 
 - 秦一诺（测试工程师）
   
 - Email：[562938990@qq.com](mailto:562938990@qq.com)
   
-- Github：[https://github.com/QYN98/apptest](https://github.com/QYN98/apptest)
+- Github：[https://github.com/QYN98](https://github.com/QYN98)
 
 - 于俊伟（测试工程师）
   
 - Email：[1364356401@163.com](mailto:1364356401@163.com)
   
-- Github：[https://github.com/jweryu/product/tree/master](https://github.com/jweryu/product/tree/master)
+- Github：[https://github.com/jweryu](https://github.com/jweryu)
 
 - 陈若繁（测试工程师）
   
 - Email：[1297985138@163.com](mailto:1297985138@163.com)
   
-- Github：[https://github.com/chenruofan3274/apptest.git](https://github.com/chenruofan3274/apptest.git)
+- Github：[https://github.com/chenruofan3274](https://github.com/chenruofan3274)
+
 
 
 
