@@ -35,8 +35,8 @@ import neet.com.youjidemo.bean.UserDateApplication;
 import neet.com.youjidemo.command.UploadUtil;
 import neet.com.youjidemo.view.IView.IShareView;
 
-public class ShareActivity extends AppCompatActivity implements View.OnClickListener ,IShareView {
-    private int SELECT_PHOTO = 200;
+public class Share implements View.OnClickListener ,IShareView {
+    private int SELECT_PHOTO = 300;
     private Button  upload;
     private ImageButton selectImage;
     private String picPath = null;
@@ -48,9 +48,7 @@ public class ShareActivity extends AppCompatActivity implements View.OnClickList
     private boolean b;
     private SharePresenter sharePresenter;
 
-    /**
-     * 从相册选取图片
-     */
+
     public void selectImg() {
         Intent intent = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*");
@@ -72,12 +70,11 @@ public class ShareActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.select_image:
-                /*** * 这个是调用android内置的intent，来过滤图片文件 ，同时也可以过滤其他的 */
                 ImagePresenter.selectImage(ShareActivity.this);
                 break;
             case R.id.btn_share_upload:
                 if (img_src == null) {
-                    Toast.makeText(ShareActivity.this, "请选择图片！", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ShareActivity.this, "请选择图库照片！", Toast.LENGTH_LONG).show();
                 } else {
                     sharePresenter.snedText();
                 }
@@ -96,7 +93,7 @@ public class ShareActivity extends AppCompatActivity implements View.OnClickList
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
-            case 200:
+            case 300:
                 switch (resultCode) {
                     case RESULT_OK:
                         Log.e("data:",""+data.getData());
@@ -110,7 +107,7 @@ public class ShareActivity extends AppCompatActivity implements View.OnClickList
     /**当上传图片不符合标准时，弹出提示*/
     private void alert() {
         Dialog dialog = new AlertDialog.Builder(this).setTitle("提示")
-                .setMessage("您选择的不是有效的图片")
+                .setMessage("您选择的图片不可用")
                 .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         img_src = null;
